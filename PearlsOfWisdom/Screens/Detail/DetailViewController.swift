@@ -32,6 +32,13 @@ class DetailViewController: UIViewController {
         super.viewDidAppear(animated)
         
         navigationController?.setNavigationBarHidden(false, animated: true)
+        UIApplication.shared.statusBarStyle = .darkContent
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        UIApplication.shared.statusBarStyle = .default
     }
 }
 
