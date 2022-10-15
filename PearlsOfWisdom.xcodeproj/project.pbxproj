@@ -1,0 +1,2010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C82BA8D28FAD1AB00839173 /* AppData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA8C28FAD1AB00839173 /* AppData.json */; };
+		8C82BA8F28FAD1E500839173 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C82BA8E28FAD1E500839173 /* AppDataModel.swift */; };
+		8C82BA9128FAD50900839173 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C82BA9028FAD50900839173 /* DetailViewController.swift */; };
+		8C82BBD128FAD63600839173 /* hope.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9328FAD63500839173 /* hope.html */; };
+		8C82BBD228FAD63600839173 /* sincerity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9428FAD63500839173 /* sincerity.html */; };
+		8C82BBD328FAD63600839173 /* the_brother.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9528FAD63500839173 /* the_brother.html */; };
+		8C82BBD428FAD63600839173 /* the_loan.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9628FAD63500839173 /* the_loan.html */; };
+		8C82BBD528FAD63600839173 /* suckling.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9728FAD63500839173 /* suckling.html */; };
+		8C82BBD628FAD63600839173 /* falsehood.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9828FAD63500839173 /* falsehood.html */; };
+		8C82BBD728FAD63600839173 /* good_repute.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9928FAD63500839173 /* good_repute.html */; };
+		8C82BBD828FAD63600839173 /* exhortation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9A28FAD63500839173 /* exhortation.html */; };
+		8C82BBD928FAD63600839173 /* bounties.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9B28FAD63500839173 /* bounties.html */; };
+		8C82BBDA28FAD63600839173 /* disgrace.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9C28FAD63500839173 /* disgrace.html */; };
+		8C82BBDB28FAD63600839173 /* compassion.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9D28FAD63500839173 /* compassion.html */; };
+		8C82BBDC28FAD63600839173 /* the_habit.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9E28FAD63500839173 /* the_habit.html */; };
+		8C82BBDD28FAD63600839173 /* obscene_lang.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9F28FAD63500839173 /* obscene_lang.html */; };
+		8C82BBDE28FAD63600839173 /* the_fault.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA028FAD63500839173 /* the_fault.html */; };
+		8C82BBDF28FAD63600839173 /* insulting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA128FAD63500839173 /* insulting.html */; };
+		8C82BBE028FAD63600839173 /* amusement.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA228FAD63500839173 /* amusement.html */; };
+		8C82BBE128FAD63600839173 /* the_creator.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA328FAD63500839173 /* the_creator.html */; };
+		8C82BBE228FAD63600839173 /* happiness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA428FAD63500839173 /* happiness.html */; };
+		8C82BBE328FAD63600839173 /* self_restraint.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA528FAD63500839173 /* self_restraint.html */; };
+		8C82BBE428FAD63600839173 /* divine_mercy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA628FAD63500839173 /* divine_mercy.html */; };
+		8C82BBE528FAD63600839173 /* the_reward.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA728FAD63500839173 /* the_reward.html */; };
+		8C82BBE628FAD63600839173 /* the_world.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA828FAD63500839173 /* the_world.html */; };
+		8C82BBE728FAD63600839173 /* scrutiny.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAA928FAD63500839173 /* scrutiny.html */; };
+		8C82BBE828FAD63600839173 /* shaking_hand.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAAA28FAD63500839173 /* shaking_hand.html */; };
+		8C82BBE928FAD63600839173 /* partisanship.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAAB28FAD63500839173 /* partisanship.html */; };
+		8C82BBEA28FAD63600839173 /* lesser_jihad.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAAC28FAD63500839173 /* lesser_jihad.html */; };
+		8C82BBEB28FAD63600839173 /* common_courtesy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAAD28FAD63500839173 /* common_courtesy.html */; };
+		8C82BBEC28FAD63600839173 /* solitude.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAAE28FAD63500839173 /* solitude.html */; };
+		8C82BBED28FAD63600839173 /* the_truth.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAAF28FAD63500839173 /* the_truth.html */; };
+		8C82BBEE28FAD63600839173 /* allah.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB028FAD63500839173 /* allah.html */; };
+		8C82BBEF28FAD63600839173 /* feeding_others.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB128FAD63500839173 /* feeding_others.html */; };
+		8C82BBF028FAD63600839173 /* rancour.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB228FAD63500839173 /* rancour.html */; };
+		8C82BBF128FAD63600839173 /* straying.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB328FAD63500839173 /* straying.html */; };
+		8C82BBF228FAD63600839173 /* housing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB428FAD63500839173 /* housing.html */; };
+		8C82BBF328FAD63600839173 /* guidance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB528FAD63500839173 /* guidance.html */; };
+		8C82BBF428FAD63600839173 /* conjecture.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB628FAD63500839173 /* conjecture.html */; };
+		8C82BBF528FAD63600839173 /* consanguinal.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB728FAD63500839173 /* consanguinal.html */; };
+		8C82BBF628FAD63600839173 /* retreat.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB828FAD63500839173 /* retreat.html */; };
+		8C82BBF728FAD63600839173 /* joking.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAB928FAD63500839173 /* joking.html */; };
+		8C82BBF828FAD63600839173 /* thinking.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BABA28FAD63500839173 /* thinking.html */; };
+		8C82BBF928FAD63600839173 /* corruption.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BABB28FAD63500839173 /* corruption.html */; };
+		8C82BBFA28FAD63600839173 /* pride.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BABC28FAD63500839173 /* pride.html */; };
+		8C82BBFB28FAD63600839173 /* contentment.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BABD28FAD63500839173 /* contentment.html */; };
+		8C82BBFC28FAD63600839173 /* destruction.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BABE28FAD63500839173 /* destruction.html */; };
+		8C82BBFD28FAD63600839173 /* people.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BABF28FAD63500839173 /* people.html */; };
+		8C82BBFE28FAD63600839173 /* secrecy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC028FAD63500839173 /* secrecy.html */; };
+		8C82BBFF28FAD63600839173 /* government.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC128FAD63500839173 /* government.html */; };
+		8C82BC0028FAD63600839173 /* veneration.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC228FAD63500839173 /* veneration.html */; };
+		8C82BC0128FAD63600839173 /* devilish.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC328FAD63500839173 /* devilish.html */; };
+		8C82BC0228FAD63600839173 /* the_end.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC428FAD63500839173 /* the_end.html */; };
+		8C82BC0328FAD63600839173 /* knowledge.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC528FAD63500839173 /* knowledge.html */; };
+		8C82BC0428FAD63600839173 /* sitting_company.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC628FAD63500839173 /* sitting_company.html */; };
+		8C82BC0528FAD63600839173 /* expectation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC728FAD63500839173 /* expectation.html */; };
+		8C82BC0628FAD63600839173 /* resentment.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC828FAD63500839173 /* resentment.html */; };
+		8C82BC0728FAD63600839173 /* possessiveness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAC928FAD63500839173 /* possessiveness.html */; };
+		8C82BC0828FAD63600839173 /* remedy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BACA28FAD63500839173 /* remedy.html */; };
+		8C82BC0928FAD63600839173 /* creation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BACB28FAD63500839173 /* creation.html */; };
+		8C82BC0A28FAD63600839173 /* emulation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BACC28FAD63500839173 /* emulation.html */; };
+		8C82BC0B28FAD63600839173 /* prostration.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BACD28FAD63500839173 /* prostration.html */; };
+		8C82BC0C28FAD63600839173 /* alms_tax.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BACE28FAD63500839173 /* alms_tax.html */; };
+		8C82BC0D28FAD63600839173 /* enmity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BACF28FAD63500839173 /* enmity.html */; };
+		8C82BC0E28FAD63600839173 /* sickness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD028FAD63500839173 /* sickness.html */; };
+		8C82BC0F28FAD63600839173 /* the_intellect.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD128FAD63500839173 /* the_intellect.html */; };
+		8C82BC1028FAD63600839173 /* obligations.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD228FAD63500839173 /* obligations.html */; };
+		8C82BC1128FAD63600839173 /* perfume.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD328FAD63500839173 /* perfume.html */; };
+		8C82BC1228FAD63600839173 /* anxiety.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD428FAD63500839173 /* anxiety.html */; };
+		8C82BC1328FAD63600839173 /* ascetism.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD528FAD63500839173 /* ascetism.html */; };
+		8C82BC1428FAD63600839173 /* the_friday_prayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD628FAD63500839173 /* the_friday_prayer.html */; };
+		8C82BC1528FAD63600839173 /* obedience.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD728FAD63500839173 /* obedience.html */; };
+		8C82BC1628FAD63600839173 /* madness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD828FAD63500839173 /* madness.html */; };
+		8C82BC1728FAD63600839173 /* the_call_for.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAD928FAD63500839173 /* the_call_for.html */; };
+		8C82BC1828FAD63600839173 /* life.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BADA28FAD63500839173 /* life.html */; };
+		8C82BC1928FAD63600839173 /* the_voice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BADB28FAD63500839173 /* the_voice.html */; };
+		8C82BC1A28FAD63600839173 /* counsel.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BADC28FAD63500839173 /* counsel.html */; };
+		8C82BC1B28FAD63600839173 /* self_sacrifice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BADD28FAD63500839173 /* self_sacrifice.html */; };
+		8C82BC1C28FAD63600839173 /* advising.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BADE28FAD63500839173 /* advising.html */; };
+		8C82BC1D28FAD63600839173 /* good_manners.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BADF28FAD63500839173 /* good_manners.html */; };
+		8C82BC1E28FAD63600839173 /* usurpation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE028FAD63500839173 /* usurpation.html */; };
+		8C82BC1F28FAD63600839173 /* listening.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE128FAD63500839173 /* listening.html */; };
+		8C82BC2028FAD63600839173 /* differences.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE228FAD63500839173 /* differences.html */; };
+		8C82BC2128FAD63600839173 /* repentance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE328FAD63500839173 /* repentance.html */; };
+		8C82BC2228FAD63600839173 /* the_need.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE428FAD63500839173 /* the_need.html */; };
+		8C82BC2328FAD63600839173 /* concealment.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE528FAD63500839173 /* concealment.html */; };
+		8C82BC2428FAD63600839173 /* satisfaction.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE628FAD63500839173 /* satisfaction.html */; };
+		8C82BC2528FAD63600839173 /* submission.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE728FAD63500839173 /* submission.html */; };
+		8C82BC2628FAD63600839173 /* the_ruler.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE828FAD63500839173 /* the_ruler.html */; };
+		8C82BC2728FAD63600839173 /* idleness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAE928FAD63500839173 /* idleness.html */; };
+		8C82BC2828FAD63600839173 /* anipathy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAEA28FAD63500839173 /* anipathy.html */; };
+		8C82BC2928FAD63600839173 /* eloquence.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAEB28FAD63500839173 /* eloquence.html */; };
+		8C82BC2A28FAD63600839173 /* the_desire.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAEC28FAD63500839173 /* the_desire.html */; };
+		8C82BC2B28FAD63600839173 /* foolishness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAED28FAD63500839173 /* foolishness.html */; };
+		8C82BC2C28FAD63600839173 /* meeting_allah.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAEE28FAD63500839173 /* meeting_allah.html */; };
+		8C82BC2D28FAD63600839173 /* duty.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAEF28FAD63500839173 /* duty.html */; };
+		8C82BC2E28FAD63600839173 /* ramazan.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF028FAD63500839173 /* ramazan.html */; };
+		8C82BC2F28FAD63600839173 /* intercession.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF128FAD63500839173 /* intercession.html */; };
+		8C82BC3028FAD63600839173 /* oppotunity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF228FAD63500839173 /* oppotunity.html */; };
+		8C82BC3128FAD63600839173 /* leniency.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF328FAD63500839173 /* leniency.html */; };
+		8C82BC3228FAD63600839173 /* the_light.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF428FAD63500839173 /* the_light.html */; };
+		8C82BC3328FAD63600839173 /* open_handed.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF528FAD63500839173 /* open_handed.html */; };
+		8C82BC3428FAD63600839173 /* fairness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF628FAD63500839173 /* fairness.html */; };
+		8C82BC3528FAD63600839173 /* covenant.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF728FAD63500839173 /* covenant.html */; };
+		8C82BC3628FAD63600839173 /* delusion.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF828FAD63500839173 /* delusion.html */; };
+		8C82BC3728FAD63600839173 /* perfection.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAF928FAD63500839173 /* perfection.html */; };
+		8C82BC3828FAD63600839173 /* merit.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAFA28FAD63500839173 /* merit.html */; };
+		8C82BC3928FAD63600839173 /* riches.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAFB28FAD63500839173 /* riches.html */; };
+		8C82BC3A28FAD63600839173 /* hospitality.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAFC28FAD63500839173 /* hospitality.html */; };
+		8C82BC3B28FAD63600839173 /* trees.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAFD28FAD63500839173 /* trees.html */; };
+		8C82BC3C28FAD63600839173 /* islam.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAFE28FAD63500839173 /* islam.html */; };
+		8C82BC3D28FAD63600839173 /* the_prayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BAFF28FAD63500839173 /* the_prayer.html */; };
+		8C82BC3E28FAD63600839173 /* opinion.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0028FAD63500839173 /* opinion.html */; };
+		8C82BC3F28FAD63600839173 /* the_chief.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0128FAD63500839173 /* the_chief.html */; };
+		8C82BC4028FAD63600839173 /* justice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0228FAD63500839173 /* justice.html */; };
+		8C82BC4128FAD63600839173 /* haste.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0328FAD63500839173 /* haste.html */; };
+		8C82BC4228FAD63600839173 /* youth.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0428FAD63500839173 /* youth.html */; };
+		8C82BC4328FAD63600839173 /* arrogance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0528FAD63500839173 /* arrogance.html */; };
+		8C82BC4428FAD63600839173 /* the_heart.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0628FAD63500839173 /* the_heart.html */; };
+		8C82BC4528FAD63600839173 /* animals.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0728FAD63500839173 /* animals.html */; };
+		8C82BC4628FAD63600839173 /* habitual.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0828FAD63500839173 /* habitual.html */; };
+		8C82BC4728FAD63600839173 /* clemency.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0928FAD63500839173 /* clemency.html */; };
+		8C82BC4828FAD63600839173 /* insight.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0A28FAD63500839173 /* insight.html */; };
+		8C82BC4928FAD63600839173 /* alcohol.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0B28FAD63500839173 /* alcohol.html */; };
+		8C82BC4A28FAD63600839173 /* dissimulation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0C28FAD63500839173 /* dissimulation.html */; };
+		8C82BC4B28FAD63600839173 /* affliction.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0D28FAD63500839173 /* affliction.html */; };
+		8C82BC4C28FAD63600839173 /* paradise.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0E28FAD63500839173 /* paradise.html */; };
+		8C82BC4D28FAD63600839173 /* making_excuses.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB0F28FAD63500839173 /* making_excuses.html */; };
+		8C82BC4E28FAD63600839173 /* self_admiration.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1028FAD63500839173 /* self_admiration.html */; };
+		8C82BC4F28FAD63600839173 /* the_spirit.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1128FAD63500839173 /* the_spirit.html */; };
+		8C82BC5028FAD63600839173 /* divider1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1228FAD63500839173 /* divider1.png */; };
+		8C82BC5128FAD63600839173 /* laughter.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1328FAD63500839173 /* laughter.html */; };
+		8C82BC5228FAD63600839173 /* anger.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1428FAD63500839173 /* anger.html */; };
+		8C82BC5328FAD63600839173 /* time.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1528FAD63500839173 /* time.html */; };
+		8C82BC5428FAD63600839173 /* the_unseen.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1628FAD63500839173 /* the_unseen.html */; };
+		8C82BC5528FAD63600839173 /* enjoining_good.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1728FAD63500839173 /* enjoining_good.html */; };
+		8C82BC5628FAD63600839173 /* old_age.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1828FAD63500839173 /* old_age.html */; };
+		8C82BC5728FAD63600839173 /* senility.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1928FAD63500839173 /* senility.html */; };
+		8C82BC5828FAD63600839173 /* the_sitting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1A28FAD63500839173 /* the_sitting.html */; };
+		8C82BC5928FAD63600839173 /* infallibility.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1B28FAD63500839173 /* infallibility.html */; };
+		8C82BC5A28FAD63600839173 /* backgrd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1C28FAD63500839173 /* backgrd.jpg */; };
+		8C82BC5B28FAD63600839173 /* martyrdom.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1D28FAD63500839173 /* martyrdom.html */; };
+		8C82BC5C28FAD63600839173 /* staying_awake.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1E28FAD63500839173 /* staying_awake.html */; };
+		8C82BC5D28FAD63600839173 /* the_marketplace.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB1F28FAD63500839173 /* the_marketplace.html */; };
+		8C82BC5E28FAD63600839173 /* extremism.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2028FAD63500839173 /* extremism.html */; };
+		8C82BC5F28FAD63600839173 /* the_verdict.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2128FAD63500839173 /* the_verdict.html */; };
+		8C82BC6028FAD63600839173 /* loss.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2228FAD63500839173 /* loss.html */; };
+		8C82BC6128FAD63600839173 /* the_muslim.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2328FAD63500839173 /* the_muslim.html */; };
+		8C82BC6228FAD63600839173 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2428FAD63500839173 /* background.png */; };
+		8C82BC6328FAD63600839173 /* fornication.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2528FAD63500839173 /* fornication.html */; };
+		8C82BC6428FAD63600839173 /* decree_destiny.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2628FAD63500839173 /* decree_destiny.html */; };
+		8C82BC6528FAD63600839173 /* disputation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2728FAD63500839173 /* disputation.html */; };
+		8C82BC6628FAD63600839173 /* trial_temptation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2828FAD63500839173 /* trial_temptation.html */; };
+		8C82BC6728FAD63600839173 /* showing_off.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2928FAD63500839173 /* showing_off.html */; };
+		8C82BC6828FAD63600839173 /* nobility.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2A28FAD63500839173 /* nobility.html */; };
+		8C82BC6928FAD63600839173 /* ablution.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2B28FAD63500839173 /* ablution.html */; };
+		8C82BC6A28FAD63600839173 /* character.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2C28FAD63500839173 /* character.html */; };
+		8C82BC6B28FAD63600839173 /* humbleness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2D28FAD63500839173 /* humbleness.html */; };
+		8C82BC6C28FAD63600839173 /* clothing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2E28FAD63500839173 /* clothing.html */; };
+		8C82BC6D28FAD63600839173 /* muhammad.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB2F28FAD63500839173 /* muhammad.html */; };
+		8C82BC6E28FAD63600839173 /* ashura.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3028FAD63500839173 /* ashura.html */; };
+		8C82BC6F28FAD63600839173 /* charity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3128FAD63500839173 /* charity.html */; };
+		8C82BC7028FAD63600839173 /* jihad.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3228FAD63500839173 /* jihad.html */; };
+		8C82BC7128FAD63600839173 /* social_interaction.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3328FAD63500839173 /* social_interaction.html */; };
+		8C82BC7228FAD63600839173 /* ambition.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3428FAD63500839173 /* ambition.html */; };
+		8C82BC7328FAD63600839173 /* wrongdoing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3528FAD63500839173 /* wrongdoing.html */; };
+		8C82BC7428FAD63600839173 /* experience.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3628FAD63500839173 /* experience.html */; };
+		8C82BC7528FAD63600839173 /* swindling.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3728FAD63500839173 /* swindling.html */; };
+		8C82BC7628FAD63600839173 /* the_rights.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3828FAD63500839173 /* the_rights.html */; };
+		8C82BC7728FAD63600839173 /* nails.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3928FAD63500839173 /* nails.html */; };
+		8C82BC7828FAD63600839173 /* the_persians.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3A28FAD63500839173 /* the_persians.html */; };
+		8C82BC7928FAD63600839173 /* food.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3B28FAD63500839173 /* food.html */; };
+		8C82BC7A28FAD63600839173 /* allahs_pleasure.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3C28FAD63500839173 /* allahs_pleasure.html */; };
+		8C82BC7B28FAD63600839173 /* praise.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3D28FAD63500839173 /* praise.html */; };
+		8C82BC7C28FAD63600839173 /* management.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3E28FAD63500839173 /* management.html */; };
+		8C82BC7D28FAD63600839173 /* inner_know_allah.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB3F28FAD63500839173 /* inner_know_allah.html */; };
+		8C82BC7E28FAD63600839173 /* the_mosque.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4028FAD63500839173 /* the_mosque.html */; };
+		8C82BC7F28FAD63600839173 /* the_path.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4128FAD63500839173 /* the_path.html */; };
+		8C82BC8028FAD63600839173 /* the_congregation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4228FAD63500839173 /* the_congregation.html */; };
+		8C82BC8128FAD63600839173 /* economics.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4328FAD63500839173 /* economics.html */; };
+		8C82BC8228FAD63600839173 /* desertion.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4428FAD63500839173 /* desertion.html */; };
+		8C82BC8328FAD63600839173 /* purity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4528FAD63500839173 /* purity.html */; };
+		8C82BC8428FAD63600839173 /* wasting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4628FAD63500839173 /* wasting.html */; };
+		8C82BC8528FAD63600839173 /* peacemaking.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4728FAD63500839173 /* peacemaking.html */; };
+		8C82BC8628FAD63600839173 /* greeting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4828FAD63500839173 /* greeting.html */; };
+		8C82BC8728FAD63600839173 /* modesty.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4928FAD63500839173 /* modesty.html */; };
+		8C82BC8828FAD63600839173 /* responsibility.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4A28FAD63500839173 /* responsibility.html */; };
+		8C82BC8928FAD63600839173 /* condemnation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4B28FAD63500839173 /* condemnation.html */; };
+		8C82BC8A28FAD63600839173 /* the_greater_jihad.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4C28FAD63500839173 /* the_greater_jihad.html */; };
+		8C82BC8B28FAD63600839173 /* patience.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4D28FAD63500839173 /* patience.html */; };
+		8C82BC8C28FAD63600839173 /* fame.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4E28FAD63500839173 /* fame.html */; };
+		8C82BC8D28FAD63600839173 /* earnings.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB4F28FAD63500839173 /* earnings.html */; };
+		8C82BC8E28FAD63600839173 /* piety.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5028FAD63500839173 /* piety.html */; };
+		8C82BC8F28FAD63600839173 /* hell.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5128FAD63500839173 /* hell.html */; };
+		8C82BC9028FAD63600839173 /* silence.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5228FAD63500839173 /* silence.html */; };
+		8C82BC9128FAD63600839173 /* generosity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5328FAD63500839173 /* generosity.html */; };
+		8C82BC9228FAD63600839173 /* commerce.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5428FAD63500839173 /* commerce.html */; };
+		8C82BC9328FAD63600839173 /* the_shia.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5528FAD63500839173 /* the_shia.html */; };
+		8C82BC9428FAD63600839173 /* death.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5628FAD63500839173 /* death.html */; };
+		8C82BC9528FAD63600839173 /* harm.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5728FAD63500839173 /* harm.html */; };
+		8C82BC9628FAD63600839173 /* the_preordained.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5828FAD63500839173 /* the_preordained.html */; };
+		8C82BC9728FAD63600839173 /* the_prohibited.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5928FAD63500839173 /* the_prohibited.html */; };
+		8C82BC9828FAD63600839173 /* the_promise.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5A28FAD63500839173 /* the_promise.html */; };
+		8C82BC9928FAD63600839173 /* service.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5B28FAD63500839173 /* service.html */; };
+		8C82BC9A28FAD63600839173 /* the_hereafter.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5C28FAD63500839173 /* the_hereafter.html */; };
+		8C82BC9B28FAD63600839173 /* the_friend.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5D28FAD63500839173 /* the_friend.html */; };
+		8C82BC9C28FAD63600839173 /* seeking_forgive.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5E28FAD63500839173 /* seeking_forgive.html */; };
+		8C82BC9D28FAD63600839173 /* banes.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB5F28FAD63500839173 /* banes.html */; };
+		8C82BC9E28FAD63600839173 /* the_dispute.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6028FAD63500839173 /* the_dispute.html */; };
+		8C82BC9F28FAD63600839173 /* the_abased.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6128FAD63500839173 /* the_abased.html */; };
+		8C82BCA028FAD63600839173 /* poverty.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6228FAD63500839173 /* poverty.html */; };
+		8C82BCA128FAD63600839173 /* amity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6328FAD63500839173 /* amity.html */; };
+		8C82BCA228FAD63600839173 /* migration.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6428FAD63500839173 /* migration.html */; };
+		8C82BCA328FAD63600839173 /* blessing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6528FAD63500839173 /* blessing.html */; };
+		8C82BCA428FAD63600839173 /* prudence.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6628FAD63500839173 /* prudence.html */; };
+		8C82BCA528FAD63600839173 /* debt.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6728FAD63500839173 /* debt.html */; };
+		8C82BCA628FAD63600839173 /* regret.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6828FAD63500839173 /* regret.html */; };
+		8C82BCA728FAD63600839173 /* childhood.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6928FAD63500839173 /* childhood.html */; };
+		8C82BCA828FAD63600839173 /* usury.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6A28FAD63500839173 /* usury.html */; };
+		8C82BCA928FAD63600839173 /* cheerfulness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6B28FAD63500839173 /* cheerfulness.html */; };
+		8C82BCAA28FAD63600839173 /* faith.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6C28FAD63500839173 /* faith.html */; };
+		8C82BCAB28FAD63600839173 /* loyalty.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6D28FAD63500839173 /* loyalty.html */; };
+		8C82BCAC28FAD63600839173 /* cowardice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6E28FAD63500839173 /* cowardice.html */; };
+		8C82BCAD28FAD63600839173 /* infatuation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB6F28FAD63500839173 /* infatuation.html */; };
+		8C82BCAE28FAD63600839173 /* the_gift.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7028FAD63500839173 /* the_gift.html */; };
+		8C82BCAF28FAD63600839173 /* intimacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7128FAD63500839173 /* intimacy.html */; };
+		8C82BCB028FAD63600839173 /* quenching.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7228FAD63500839173 /* quenching.html */; };
+		8C82BCB128FAD63600839173 /* betrayal.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7328FAD63500839173 /* betrayal.html */; };
+		8C82BCB228FAD63600839173 /* judgement.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7428FAD63500839173 /* judgement.html */; };
+		8C82BCB328FAD63600839173 /* lifespan.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7528FAD63500839173 /* lifespan.html */; };
+		8C82BCB428FAD63600839173 /* jurisprudence.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7628FAD63500839173 /* jurisprudence.html */; };
+		8C82BCB528FAD63600839173 /* lifestyle.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7728FAD63500839173 /* lifestyle.html */; };
+		8C82BCB628FAD63600839173 /* good.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7828FAD63500839173 /* good.html */; };
+		8C82BCB728FAD63600839173 /* employment.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7928FAD63500839173 /* employment.html */; };
+		8C82BCB828FAD63600839173 /* asceticism.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7A28FAD63500839173 /* asceticism.html */; };
+		8C82BCB928FAD63600839173 /* assurance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7B28FAD63500839173 /* assurance.html */; };
+		8C82BCBA28FAD63600839173 /* hypocrisy.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7C28FAD63500839173 /* hypocrisy.html */; };
+		8C82BCBB28FAD63600839173 /* vitality.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7D28FAD63500839173 /* vitality.html */; };
+		8C82BCBC28FAD63600839173 /* bearing_witness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7E28FAD63500839173 /* bearing_witness.html */; };
+		8C82BCBD28FAD63600839173 /* aggression.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB7F28FAD63500839173 /* aggression.html */; };
+		8C82BCBE28FAD63600839173 /* godwariness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8028FAD63500839173 /* godwariness.html */; };
+		8C82BCBF28FAD63600839173 /* truthfulness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8128FAD63500839173 /* truthfulness.html */; };
+		8C82BCC028FAD63600839173 /* brushing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8228FAD63500839173 /* brushing.html */; };
+		8C82BCC128FAD63600839173 /* friday.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8328FAD63500839173 /* friday.html */; };
+		8C82BCC228FAD63600839173 /* gambling.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8428FAD63500839173 /* gambling.html */; };
+		8C82BCC328FAD63600839173 /* captive.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8528FAD63500839173 /* captive.html */; };
+		8C82BCC428FAD63600839173 /* polytheism.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8628FAD63500839173 /* polytheism.html */; };
+		8C82BCC528FAD63600839173 /* killing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8728FAD63500839173 /* killing.html */; };
+		8C82BCC628FAD63600839173 /* sinning.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8828FAD63500839173 /* sinning.html */; };
+		8C82BCC728FAD63600839173 /* beauty.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8928FAD63500839173 /* beauty.html */; };
+		8C82BCC828FAD63600839173 /* fasting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8A28FAD63500839173 /* fasting.html */; };
+		8C82BCC928FAD63600839173 /* bribery.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8B28FAD63500839173 /* bribery.html */; };
+		8C82BCCA28FAD63600839173 /* lying.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8C28FAD63500839173 /* lying.html */; };
+		8C82BCCB28FAD63600839173 /* procrastination.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8D28FAD63500839173 /* procrastination.html */; };
+		8C82BCCC28FAD63600839173 /* action.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8E28FAD63500839173 /* action.html */; };
+		8C82BCCD28FAD63600839173 /* the_homeland.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB8F28FAD63500839173 /* the_homeland.html */; };
+		8C82BCCE28FAD63600839173 /* the_lawful.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9028FAD63500839173 /* the_lawful.html */; };
+		8C82BCCF28FAD63600839173 /* intention.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9128FAD63500839173 /* intention.html */; };
+		8C82BCD028FAD63600839173 /* humility.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9228FAD63500839173 /* humility.html */; };
+		8C82BCD128FAD63600839173 /* predestination.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9328FAD63500839173 /* predestination.html */; };
+		8C82BCD228FAD63600839173 /* sorrow.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9428FAD63500839173 /* sorrow.html */; };
+		8C82BCD328FAD63600839173 /* suspicion.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9528FAD63500839173 /* suspicion.html */; };
+		8C82BCD428FAD63600839173 /* disbelief.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9628FAD63500839173 /* disbelief.html */; };
+		8C82BCD528FAD63600839173 /* fear.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9728FAD63500839173 /* fear.html */; };
+		8C82BCD628FAD63600839173 /* innovation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9828FAD63500839173 /* innovation.html */; };
+		8C82BCD728FAD63600839173 /* adornment.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9928FAD63500839173 /* adornment.html */; };
+		8C82BCD828FAD63600839173 /* honor.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9A28FAD63500839173 /* honor.html */; };
+		8C82BCD928FAD63600839173 /* thanksgiving.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9B28FAD63500839173 /* thanksgiving.html */; };
+		8C82BCDA28FAD63600839173 /* financial.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9C28FAD63500839173 /* financial.html */; };
+		8C82BCDB28FAD63600839173 /* the_answer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9D28FAD63600839173 /* the_answer.html */; };
+		8C82BCDC28FAD63600839173 /* asking_when_seeking.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9E28FAD63600839173 /* asking_when_seeking.html */; };
+		8C82BCDD28FAD63600839173 /* satan.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BB9F28FAD63600839173 /* satan.html */; };
+		8C82BCDE28FAD63600839173 /* intoxication.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA028FAD63600839173 /* intoxication.html */; };
+		8C82BCDF28FAD63600839173 /* the_bathhouse.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA128FAD63600839173 /* the_bathhouse.html */; };
+		8C82BCE028FAD63600839173 /* scorn.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA228FAD63600839173 /* scorn.html */; };
+		8C82BCE128FAD63600839173 /* tyranny.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA328FAD63600839173 /* tyranny.html */; };
+		8C82BCE228FAD63600839173 /* the_obscure.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA428FAD63600839173 /* the_obscure.html */; };
+		8C82BCE328FAD63600839173 /* greed.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA528FAD63600839173 /* greed.html */; };
+		8C82BCE428FAD63600839173 /* the_name.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA628FAD63600839173 /* the_name.html */; };
+		8C82BCE528FAD63600839173 /* prosperity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA728FAD63600839173 /* prosperity.html */; };
+		8C82BCE628FAD63600839173 /* courage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA828FAD63600839173 /* courage.html */; };
+		8C82BCE728FAD63600839173 /* agriculture.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBA928FAD63600839173 /* agriculture.html */; };
+		8C82BCE828FAD63600839173 /* sustenance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBAA28FAD63600839173 /* sustenance.html */; };
+		8C82BCE928FAD63600839173 /* backbiting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBAB28FAD63600839173 /* backbiting.html */; };
+		8C82BCEA28FAD63600839173 /* negligence.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBAC28FAD63600839173 /* negligence.html */; };
+		8C82BCEB28FAD63600839173 /* invoking_blessings.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBAD28FAD63600839173 /* invoking_blessings.html */; };
+		8C82BCEC28FAD63600839173 /* spying.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBAE28FAD63600839173 /* spying.html */; };
+		8C82BCED28FAD63600839173 /* state.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBAF28FAD63600839173 /* state.html */; };
+		8C82BCEE28FAD63600839173 /* angels.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB028FAD63600839173 /* angels.html */; };
+		8C82BCEF28FAD63600839173 /* amicableness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB128FAD63600839173 /* amicableness.html */; };
+		8C82BCF028FAD63600839173 /* whitebkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB228FAD63600839173 /* whitebkg.jpg */; };
+		8C82BCF128FAD63600839173 /* resurrection.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB328FAD63600839173 /* resurrection.html */; };
+		8C82BCF228FAD63600839173 /* divorce.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB428FAD63600839173 /* divorce.html */; };
+		8C82BCF328FAD63600839173 /* evil.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB528FAD63600839173 /* evil.html */; };
+		8C82BCF428FAD63600839173 /* war.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB628FAD63600839173 /* war.html */; };
+		8C82BCF528FAD63600839173 /* travel.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB728FAD63600839173 /* travel.html */; };
+		8C82BCF628FAD63600839173 /* pardon.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB828FAD63600839173 /* pardon.html */; };
+		8C82BCF728FAD63600839173 /* the_moral_less.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBB928FAD63600839173 /* the_moral_less.html */; };
+		8C82BCF828FAD63600839173 /* aashura.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBBA28FAD63600839173 /* aashura.html */; };
+		8C82BCF928FAD63600839173 /* remembrance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBBB28FAD63600839173 /* remembrance.html */; };
+		8C82BCFA28FAD63600839173 /* condolence.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBBC28FAD63600839173 /* condolence.html */; };
+		8C82BCFB28FAD63600839173 /* marriage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBBD28FAD63600839173 /* marriage.html */; };
+		8C82BCFC28FAD63600839173 /* inner_knowledge.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBBE28FAD63600839173 /* inner_knowledge.html */; };
+		8C82BCFD28FAD63600839173 /* dreams.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBBF28FAD63600839173 /* dreams.html */; };
+		8C82BCFE28FAD63600839173 /* supplication.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC028FAD63600839173 /* supplication.html */; };
+		8C82BCFF28FAD63600839173 /* wisdom.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC128FAD63600839173 /* wisdom.html */; };
+		8C82BD0028FAD63600839173 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC228FAD63600839173 /* back.png */; };
+		8C82BD0128FAD63600839173 /* the_festival.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC328FAD63600839173 /* the_festival.html */; };
+		8C82BD0228FAD63600839173 /* parent_child.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC428FAD63600839173 /* parent_child.html */; };
+		8C82BD0328FAD63600839173 /* religion.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC528FAD63600839173 /* religion.html */; };
+		8C82BD0428FAD63600839173 /* cleanliness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC628FAD63600839173 /* cleanliness.html */; };
+		8C82BD0528FAD63600839173 /* ignorance.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC728FAD63600839173 /* ignorance.html */; };
+		8C82BD0628FAD63600839173 /* music.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC828FAD63600839173 /* music.html */; };
+		8C82BD0728FAD63600839173 /* wretchedness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBC928FAD63600839173 /* wretchedness.html */; };
+		8C82BD0828FAD63600839173 /* laziness.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBCA28FAD63600839173 /* laziness.html */; };
+		8C82BD0928FAD63600839173 /* visiting.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBCB28FAD63600839173 /* visiting.html */; };
+		8C82BD0A28FAD63600839173 /* the_blessing.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBCC28FAD63600839173 /* the_blessing.html */; };
+		8C82BD0B28FAD63600839173 /* comfort.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBCD28FAD63600839173 /* comfort.html */; };
+		8C82BD0C28FAD63600839173 /* worship.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBCE28FAD63600839173 /* worship.html */; };
+		8C82BD0D28FAD63600839173 /* doubt.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBCF28FAD63600839173 /* doubt.html */; };
+		8C82BD0E28FAD63600839173 /* the_night_prayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BBD028FAD63600839173 /* the_night_prayer.html */; };
+		8C82BD1128FAE08800839173 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C82BD1028FAE08800839173 /* CustomSearchBar.swift */; };
+		8C8861C928FACA8B008D3886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8861C828FACA8B008D3886 /* AppDelegate.swift */; };
+		8C8861CB28FACA8B008D3886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8861CA28FACA8B008D3886 /* SceneDelegate.swift */; };
+		8C8861D228FACA8C008D3886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8861D128FACA8C008D3886 /* Assets.xcassets */; };
+		8C8861D528FACA8C008D3886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8861D328FACA8C008D3886 /* LaunchScreen.storyboard */; };
+		8C8861E028FACA8C008D3886 /* PearlsOfWisdomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8861DF28FACA8C008D3886 /* PearlsOfWisdomTests.swift */; };
+		8C8861EA28FACA8C008D3886 /* PearlsOfWisdomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8861E928FACA8C008D3886 /* PearlsOfWisdomUITests.swift */; };
+		8C8861EC28FACA8C008D3886 /* PearlsOfWisdomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8861EB28FACA8C008D3886 /* PearlsOfWisdomUITestsLaunchTests.swift */; };
+		8C8861FD28FACB15008D3886 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8861FC28FACB15008D3886 /* HomeViewController.swift */; };
+		8C88620028FACB4E008D3886 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8C8861FF28FACB4E008D3886 /* SnapKit */; };
+		8C88620628FACDA6008D3886 /* UI+new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88620528FACDA6008D3886 /* UI+new.swift */; };
+		8C88620A28FACE35008D3886 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88620928FACE35008D3886 /* HomeCell.swift */; };
+		8C88620C28FACF45008D3886 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88620B28FACF45008D3886 /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8861DC28FACA8C008D3886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8861BD28FACA8B008D3886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8861C428FACA8B008D3886;
+			remoteInfo = PearlsOfWisdom;
+		};
+		8C8861E628FACA8C008D3886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8861BD28FACA8B008D3886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8861C428FACA8B008D3886;
+			remoteInfo = PearlsOfWisdom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C82BA8C28FAD1AB00839173 /* AppData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppData.json; sourceTree = "<group>"; };
+		8C82BA8E28FAD1E500839173 /* AppDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		8C82BA9028FAD50900839173 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8C82BA9328FAD63500839173 /* hope.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hope.html; sourceTree = "<group>"; };
+		8C82BA9428FAD63500839173 /* sincerity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sincerity.html; sourceTree = "<group>"; };
+		8C82BA9528FAD63500839173 /* the_brother.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_brother.html; sourceTree = "<group>"; };
+		8C82BA9628FAD63500839173 /* the_loan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_loan.html; sourceTree = "<group>"; };
+		8C82BA9728FAD63500839173 /* suckling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = suckling.html; sourceTree = "<group>"; };
+		8C82BA9828FAD63500839173 /* falsehood.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = falsehood.html; sourceTree = "<group>"; };
+		8C82BA9928FAD63500839173 /* good_repute.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = good_repute.html; sourceTree = "<group>"; };
+		8C82BA9A28FAD63500839173 /* exhortation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = exhortation.html; sourceTree = "<group>"; };
+		8C82BA9B28FAD63500839173 /* bounties.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bounties.html; sourceTree = "<group>"; };
+		8C82BA9C28FAD63500839173 /* disgrace.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disgrace.html; sourceTree = "<group>"; };
+		8C82BA9D28FAD63500839173 /* compassion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = compassion.html; sourceTree = "<group>"; };
+		8C82BA9E28FAD63500839173 /* the_habit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_habit.html; sourceTree = "<group>"; };
+		8C82BA9F28FAD63500839173 /* obscene_lang.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = obscene_lang.html; sourceTree = "<group>"; };
+		8C82BAA028FAD63500839173 /* the_fault.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_fault.html; sourceTree = "<group>"; };
+		8C82BAA128FAD63500839173 /* insulting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = insulting.html; sourceTree = "<group>"; };
+		8C82BAA228FAD63500839173 /* amusement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = amusement.html; sourceTree = "<group>"; };
+		8C82BAA328FAD63500839173 /* the_creator.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_creator.html; sourceTree = "<group>"; };
+		8C82BAA428FAD63500839173 /* happiness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = happiness.html; sourceTree = "<group>"; };
+		8C82BAA528FAD63500839173 /* self_restraint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = self_restraint.html; sourceTree = "<group>"; };
+		8C82BAA628FAD63500839173 /* divine_mercy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = divine_mercy.html; sourceTree = "<group>"; };
+		8C82BAA728FAD63500839173 /* the_reward.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_reward.html; sourceTree = "<group>"; };
+		8C82BAA828FAD63500839173 /* the_world.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_world.html; sourceTree = "<group>"; };
+		8C82BAA928FAD63500839173 /* scrutiny.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scrutiny.html; sourceTree = "<group>"; };
+		8C82BAAA28FAD63500839173 /* shaking_hand.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = shaking_hand.html; sourceTree = "<group>"; };
+		8C82BAAB28FAD63500839173 /* partisanship.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = partisanship.html; sourceTree = "<group>"; };
+		8C82BAAC28FAD63500839173 /* lesser_jihad.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lesser_jihad.html; sourceTree = "<group>"; };
+		8C82BAAD28FAD63500839173 /* common_courtesy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = common_courtesy.html; sourceTree = "<group>"; };
+		8C82BAAE28FAD63500839173 /* solitude.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = solitude.html; sourceTree = "<group>"; };
+		8C82BAAF28FAD63500839173 /* the_truth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_truth.html; sourceTree = "<group>"; };
+		8C82BAB028FAD63500839173 /* allah.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = allah.html; sourceTree = "<group>"; };
+		8C82BAB128FAD63500839173 /* feeding_others.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = feeding_others.html; sourceTree = "<group>"; };
+		8C82BAB228FAD63500839173 /* rancour.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rancour.html; sourceTree = "<group>"; };
+		8C82BAB328FAD63500839173 /* straying.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = straying.html; sourceTree = "<group>"; };
+		8C82BAB428FAD63500839173 /* housing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = housing.html; sourceTree = "<group>"; };
+		8C82BAB528FAD63500839173 /* guidance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = guidance.html; sourceTree = "<group>"; };
+		8C82BAB628FAD63500839173 /* conjecture.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conjecture.html; sourceTree = "<group>"; };
+		8C82BAB728FAD63500839173 /* consanguinal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = consanguinal.html; sourceTree = "<group>"; };
+		8C82BAB828FAD63500839173 /* retreat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = retreat.html; sourceTree = "<group>"; };
+		8C82BAB928FAD63500839173 /* joking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = joking.html; sourceTree = "<group>"; };
+		8C82BABA28FAD63500839173 /* thinking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thinking.html; sourceTree = "<group>"; };
+		8C82BABB28FAD63500839173 /* corruption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = corruption.html; sourceTree = "<group>"; };
+		8C82BABC28FAD63500839173 /* pride.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pride.html; sourceTree = "<group>"; };
+		8C82BABD28FAD63500839173 /* contentment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = contentment.html; sourceTree = "<group>"; };
+		8C82BABE28FAD63500839173 /* destruction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = destruction.html; sourceTree = "<group>"; };
+		8C82BABF28FAD63500839173 /* people.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = people.html; sourceTree = "<group>"; };
+		8C82BAC028FAD63500839173 /* secrecy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = secrecy.html; sourceTree = "<group>"; };
+		8C82BAC128FAD63500839173 /* government.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = government.html; sourceTree = "<group>"; };
+		8C82BAC228FAD63500839173 /* veneration.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = veneration.html; sourceTree = "<group>"; };
+		8C82BAC328FAD63500839173 /* devilish.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = devilish.html; sourceTree = "<group>"; };
+		8C82BAC428FAD63500839173 /* the_end.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_end.html; sourceTree = "<group>"; };
+		8C82BAC528FAD63500839173 /* knowledge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = knowledge.html; sourceTree = "<group>"; };
+		8C82BAC628FAD63500839173 /* sitting_company.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sitting_company.html; sourceTree = "<group>"; };
+		8C82BAC728FAD63500839173 /* expectation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = expectation.html; sourceTree = "<group>"; };
+		8C82BAC828FAD63500839173 /* resentment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = resentment.html; sourceTree = "<group>"; };
+		8C82BAC928FAD63500839173 /* possessiveness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = possessiveness.html; sourceTree = "<group>"; };
+		8C82BACA28FAD63500839173 /* remedy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = remedy.html; sourceTree = "<group>"; };
+		8C82BACB28FAD63500839173 /* creation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = creation.html; sourceTree = "<group>"; };
+		8C82BACC28FAD63500839173 /* emulation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = emulation.html; sourceTree = "<group>"; };
+		8C82BACD28FAD63500839173 /* prostration.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = prostration.html; sourceTree = "<group>"; };
+		8C82BACE28FAD63500839173 /* alms_tax.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = alms_tax.html; sourceTree = "<group>"; };
+		8C82BACF28FAD63500839173 /* enmity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = enmity.html; sourceTree = "<group>"; };
+		8C82BAD028FAD63500839173 /* sickness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sickness.html; sourceTree = "<group>"; };
+		8C82BAD128FAD63500839173 /* the_intellect.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_intellect.html; sourceTree = "<group>"; };
+		8C82BAD228FAD63500839173 /* obligations.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = obligations.html; sourceTree = "<group>"; };
+		8C82BAD328FAD63500839173 /* perfume.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = perfume.html; sourceTree = "<group>"; };
+		8C82BAD428FAD63500839173 /* anxiety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = anxiety.html; sourceTree = "<group>"; };
+		8C82BAD528FAD63500839173 /* ascetism.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ascetism.html; sourceTree = "<group>"; };
+		8C82BAD628FAD63500839173 /* the_friday_prayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_friday_prayer.html; sourceTree = "<group>"; };
+		8C82BAD728FAD63500839173 /* obedience.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = obedience.html; sourceTree = "<group>"; };
+		8C82BAD828FAD63500839173 /* madness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = madness.html; sourceTree = "<group>"; };
+		8C82BAD928FAD63500839173 /* the_call_for.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_call_for.html; sourceTree = "<group>"; };
+		8C82BADA28FAD63500839173 /* life.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = life.html; sourceTree = "<group>"; };
+		8C82BADB28FAD63500839173 /* the_voice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_voice.html; sourceTree = "<group>"; };
+		8C82BADC28FAD63500839173 /* counsel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = counsel.html; sourceTree = "<group>"; };
+		8C82BADD28FAD63500839173 /* self_sacrifice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = self_sacrifice.html; sourceTree = "<group>"; };
+		8C82BADE28FAD63500839173 /* advising.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = advising.html; sourceTree = "<group>"; };
+		8C82BADF28FAD63500839173 /* good_manners.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = good_manners.html; sourceTree = "<group>"; };
+		8C82BAE028FAD63500839173 /* usurpation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = usurpation.html; sourceTree = "<group>"; };
+		8C82BAE128FAD63500839173 /* listening.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = listening.html; sourceTree = "<group>"; };
+		8C82BAE228FAD63500839173 /* differences.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = differences.html; sourceTree = "<group>"; };
+		8C82BAE328FAD63500839173 /* repentance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = repentance.html; sourceTree = "<group>"; };
+		8C82BAE428FAD63500839173 /* the_need.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_need.html; sourceTree = "<group>"; };
+		8C82BAE528FAD63500839173 /* concealment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = concealment.html; sourceTree = "<group>"; };
+		8C82BAE628FAD63500839173 /* satisfaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = satisfaction.html; sourceTree = "<group>"; };
+		8C82BAE728FAD63500839173 /* submission.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = submission.html; sourceTree = "<group>"; };
+		8C82BAE828FAD63500839173 /* the_ruler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_ruler.html; sourceTree = "<group>"; };
+		8C82BAE928FAD63500839173 /* idleness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = idleness.html; sourceTree = "<group>"; };
+		8C82BAEA28FAD63500839173 /* anipathy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = anipathy.html; sourceTree = "<group>"; };
+		8C82BAEB28FAD63500839173 /* eloquence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = eloquence.html; sourceTree = "<group>"; };
+		8C82BAEC28FAD63500839173 /* the_desire.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_desire.html; sourceTree = "<group>"; };
+		8C82BAED28FAD63500839173 /* foolishness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = foolishness.html; sourceTree = "<group>"; };
+		8C82BAEE28FAD63500839173 /* meeting_allah.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = meeting_allah.html; sourceTree = "<group>"; };
+		8C82BAEF28FAD63500839173 /* duty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = duty.html; sourceTree = "<group>"; };
+		8C82BAF028FAD63500839173 /* ramazan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ramazan.html; sourceTree = "<group>"; };
+		8C82BAF128FAD63500839173 /* intercession.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intercession.html; sourceTree = "<group>"; };
+		8C82BAF228FAD63500839173 /* oppotunity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = oppotunity.html; sourceTree = "<group>"; };
+		8C82BAF328FAD63500839173 /* leniency.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = leniency.html; sourceTree = "<group>"; };
+		8C82BAF428FAD63500839173 /* the_light.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_light.html; sourceTree = "<group>"; };
+		8C82BAF528FAD63500839173 /* open_handed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = open_handed.html; sourceTree = "<group>"; };
+		8C82BAF628FAD63500839173 /* fairness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fairness.html; sourceTree = "<group>"; };
+		8C82BAF728FAD63500839173 /* covenant.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = covenant.html; sourceTree = "<group>"; };
+		8C82BAF828FAD63500839173 /* delusion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = delusion.html; sourceTree = "<group>"; };
+		8C82BAF928FAD63500839173 /* perfection.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = perfection.html; sourceTree = "<group>"; };
+		8C82BAFA28FAD63500839173 /* merit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = merit.html; sourceTree = "<group>"; };
+		8C82BAFB28FAD63500839173 /* riches.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = riches.html; sourceTree = "<group>"; };
+		8C82BAFC28FAD63500839173 /* hospitality.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hospitality.html; sourceTree = "<group>"; };
+		8C82BAFD28FAD63500839173 /* trees.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trees.html; sourceTree = "<group>"; };
+		8C82BAFE28FAD63500839173 /* islam.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = islam.html; sourceTree = "<group>"; };
+		8C82BAFF28FAD63500839173 /* the_prayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_prayer.html; sourceTree = "<group>"; };
+		8C82BB0028FAD63500839173 /* opinion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = opinion.html; sourceTree = "<group>"; };
+		8C82BB0128FAD63500839173 /* the_chief.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_chief.html; sourceTree = "<group>"; };
+		8C82BB0228FAD63500839173 /* justice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = justice.html; sourceTree = "<group>"; };
+		8C82BB0328FAD63500839173 /* haste.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = haste.html; sourceTree = "<group>"; };
+		8C82BB0428FAD63500839173 /* youth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = youth.html; sourceTree = "<group>"; };
+		8C82BB0528FAD63500839173 /* arrogance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = arrogance.html; sourceTree = "<group>"; };
+		8C82BB0628FAD63500839173 /* the_heart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_heart.html; sourceTree = "<group>"; };
+		8C82BB0728FAD63500839173 /* animals.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = animals.html; sourceTree = "<group>"; };
+		8C82BB0828FAD63500839173 /* habitual.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = habitual.html; sourceTree = "<group>"; };
+		8C82BB0928FAD63500839173 /* clemency.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = clemency.html; sourceTree = "<group>"; };
+		8C82BB0A28FAD63500839173 /* insight.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = insight.html; sourceTree = "<group>"; };
+		8C82BB0B28FAD63500839173 /* alcohol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = alcohol.html; sourceTree = "<group>"; };
+		8C82BB0C28FAD63500839173 /* dissimulation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dissimulation.html; sourceTree = "<group>"; };
+		8C82BB0D28FAD63500839173 /* affliction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = affliction.html; sourceTree = "<group>"; };
+		8C82BB0E28FAD63500839173 /* paradise.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paradise.html; sourceTree = "<group>"; };
+		8C82BB0F28FAD63500839173 /* making_excuses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = making_excuses.html; sourceTree = "<group>"; };
+		8C82BB1028FAD63500839173 /* self_admiration.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = self_admiration.html; sourceTree = "<group>"; };
+		8C82BB1128FAD63500839173 /* the_spirit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_spirit.html; sourceTree = "<group>"; };
+		8C82BB1228FAD63500839173 /* divider1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider1.png; sourceTree = "<group>"; };
+		8C82BB1328FAD63500839173 /* laughter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = laughter.html; sourceTree = "<group>"; };
+		8C82BB1428FAD63500839173 /* anger.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = anger.html; sourceTree = "<group>"; };
+		8C82BB1528FAD63500839173 /* time.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = time.html; sourceTree = "<group>"; };
+		8C82BB1628FAD63500839173 /* the_unseen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_unseen.html; sourceTree = "<group>"; };
+		8C82BB1728FAD63500839173 /* enjoining_good.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = enjoining_good.html; sourceTree = "<group>"; };
+		8C82BB1828FAD63500839173 /* old_age.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = old_age.html; sourceTree = "<group>"; };
+		8C82BB1928FAD63500839173 /* senility.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = senility.html; sourceTree = "<group>"; };
+		8C82BB1A28FAD63500839173 /* the_sitting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_sitting.html; sourceTree = "<group>"; };
+		8C82BB1B28FAD63500839173 /* infallibility.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = infallibility.html; sourceTree = "<group>"; };
+		8C82BB1C28FAD63500839173 /* backgrd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgrd.jpg; sourceTree = "<group>"; };
+		8C82BB1D28FAD63500839173 /* martyrdom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = martyrdom.html; sourceTree = "<group>"; };
+		8C82BB1E28FAD63500839173 /* staying_awake.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = staying_awake.html; sourceTree = "<group>"; };
+		8C82BB1F28FAD63500839173 /* the_marketplace.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_marketplace.html; sourceTree = "<group>"; };
+		8C82BB2028FAD63500839173 /* extremism.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = extremism.html; sourceTree = "<group>"; };
+		8C82BB2128FAD63500839173 /* the_verdict.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_verdict.html; sourceTree = "<group>"; };
+		8C82BB2228FAD63500839173 /* loss.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = loss.html; sourceTree = "<group>"; };
+		8C82BB2328FAD63500839173 /* the_muslim.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_muslim.html; sourceTree = "<group>"; };
+		8C82BB2428FAD63500839173 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8C82BB2528FAD63500839173 /* fornication.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fornication.html; sourceTree = "<group>"; };
+		8C82BB2628FAD63500839173 /* decree_destiny.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = decree_destiny.html; sourceTree = "<group>"; };
+		8C82BB2728FAD63500839173 /* disputation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disputation.html; sourceTree = "<group>"; };
+		8C82BB2828FAD63500839173 /* trial_temptation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trial_temptation.html; sourceTree = "<group>"; };
+		8C82BB2928FAD63500839173 /* showing_off.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = showing_off.html; sourceTree = "<group>"; };
+		8C82BB2A28FAD63500839173 /* nobility.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = nobility.html; sourceTree = "<group>"; };
+		8C82BB2B28FAD63500839173 /* ablution.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ablution.html; sourceTree = "<group>"; };
+		8C82BB2C28FAD63500839173 /* character.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = character.html; sourceTree = "<group>"; };
+		8C82BB2D28FAD63500839173 /* humbleness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = humbleness.html; sourceTree = "<group>"; };
+		8C82BB2E28FAD63500839173 /* clothing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = clothing.html; sourceTree = "<group>"; };
+		8C82BB2F28FAD63500839173 /* muhammad.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = muhammad.html; sourceTree = "<group>"; };
+		8C82BB3028FAD63500839173 /* ashura.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ashura.html; sourceTree = "<group>"; };
+		8C82BB3128FAD63500839173 /* charity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = charity.html; sourceTree = "<group>"; };
+		8C82BB3228FAD63500839173 /* jihad.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jihad.html; sourceTree = "<group>"; };
+		8C82BB3328FAD63500839173 /* social_interaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = social_interaction.html; sourceTree = "<group>"; };
+		8C82BB3428FAD63500839173 /* ambition.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ambition.html; sourceTree = "<group>"; };
+		8C82BB3528FAD63500839173 /* wrongdoing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrongdoing.html; sourceTree = "<group>"; };
+		8C82BB3628FAD63500839173 /* experience.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = experience.html; sourceTree = "<group>"; };
+		8C82BB3728FAD63500839173 /* swindling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = swindling.html; sourceTree = "<group>"; };
+		8C82BB3828FAD63500839173 /* the_rights.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_rights.html; sourceTree = "<group>"; };
+		8C82BB3928FAD63500839173 /* nails.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = nails.html; sourceTree = "<group>"; };
+		8C82BB3A28FAD63500839173 /* the_persians.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_persians.html; sourceTree = "<group>"; };
+		8C82BB3B28FAD63500839173 /* food.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = food.html; sourceTree = "<group>"; };
+		8C82BB3C28FAD63500839173 /* allahs_pleasure.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = allahs_pleasure.html; sourceTree = "<group>"; };
+		8C82BB3D28FAD63500839173 /* praise.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = praise.html; sourceTree = "<group>"; };
+		8C82BB3E28FAD63500839173 /* management.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = management.html; sourceTree = "<group>"; };
+		8C82BB3F28FAD63500839173 /* inner_know_allah.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inner_know_allah.html; sourceTree = "<group>"; };
+		8C82BB4028FAD63500839173 /* the_mosque.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_mosque.html; sourceTree = "<group>"; };
+		8C82BB4128FAD63500839173 /* the_path.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_path.html; sourceTree = "<group>"; };
+		8C82BB4228FAD63500839173 /* the_congregation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_congregation.html; sourceTree = "<group>"; };
+		8C82BB4328FAD63500839173 /* economics.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = economics.html; sourceTree = "<group>"; };
+		8C82BB4428FAD63500839173 /* desertion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = desertion.html; sourceTree = "<group>"; };
+		8C82BB4528FAD63500839173 /* purity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = purity.html; sourceTree = "<group>"; };
+		8C82BB4628FAD63500839173 /* wasting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wasting.html; sourceTree = "<group>"; };
+		8C82BB4728FAD63500839173 /* peacemaking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = peacemaking.html; sourceTree = "<group>"; };
+		8C82BB4828FAD63500839173 /* greeting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = greeting.html; sourceTree = "<group>"; };
+		8C82BB4928FAD63500839173 /* modesty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = modesty.html; sourceTree = "<group>"; };
+		8C82BB4A28FAD63500839173 /* responsibility.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = responsibility.html; sourceTree = "<group>"; };
+		8C82BB4B28FAD63500839173 /* condemnation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = condemnation.html; sourceTree = "<group>"; };
+		8C82BB4C28FAD63500839173 /* the_greater_jihad.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_greater_jihad.html; sourceTree = "<group>"; };
+		8C82BB4D28FAD63500839173 /* patience.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = patience.html; sourceTree = "<group>"; };
+		8C82BB4E28FAD63500839173 /* fame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fame.html; sourceTree = "<group>"; };
+		8C82BB4F28FAD63500839173 /* earnings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = earnings.html; sourceTree = "<group>"; };
+		8C82BB5028FAD63500839173 /* piety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = piety.html; sourceTree = "<group>"; };
+		8C82BB5128FAD63500839173 /* hell.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hell.html; sourceTree = "<group>"; };
+		8C82BB5228FAD63500839173 /* silence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = silence.html; sourceTree = "<group>"; };
+		8C82BB5328FAD63500839173 /* generosity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = generosity.html; sourceTree = "<group>"; };
+		8C82BB5428FAD63500839173 /* commerce.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = commerce.html; sourceTree = "<group>"; };
+		8C82BB5528FAD63500839173 /* the_shia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_shia.html; sourceTree = "<group>"; };
+		8C82BB5628FAD63500839173 /* death.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = death.html; sourceTree = "<group>"; };
+		8C82BB5728FAD63500839173 /* harm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = harm.html; sourceTree = "<group>"; };
+		8C82BB5828FAD63500839173 /* the_preordained.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_preordained.html; sourceTree = "<group>"; };
+		8C82BB5928FAD63500839173 /* the_prohibited.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_prohibited.html; sourceTree = "<group>"; };
+		8C82BB5A28FAD63500839173 /* the_promise.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_promise.html; sourceTree = "<group>"; };
+		8C82BB5B28FAD63500839173 /* service.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = service.html; sourceTree = "<group>"; };
+		8C82BB5C28FAD63500839173 /* the_hereafter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_hereafter.html; sourceTree = "<group>"; };
+		8C82BB5D28FAD63500839173 /* the_friend.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_friend.html; sourceTree = "<group>"; };
+		8C82BB5E28FAD63500839173 /* seeking_forgive.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = seeking_forgive.html; sourceTree = "<group>"; };
+		8C82BB5F28FAD63500839173 /* banes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = banes.html; sourceTree = "<group>"; };
+		8C82BB6028FAD63500839173 /* the_dispute.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_dispute.html; sourceTree = "<group>"; };
+		8C82BB6128FAD63500839173 /* the_abased.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_abased.html; sourceTree = "<group>"; };
+		8C82BB6228FAD63500839173 /* poverty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = poverty.html; sourceTree = "<group>"; };
+		8C82BB6328FAD63500839173 /* amity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = amity.html; sourceTree = "<group>"; };
+		8C82BB6428FAD63500839173 /* migration.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = migration.html; sourceTree = "<group>"; };
+		8C82BB6528FAD63500839173 /* blessing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blessing.html; sourceTree = "<group>"; };
+		8C82BB6628FAD63500839173 /* prudence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = prudence.html; sourceTree = "<group>"; };
+		8C82BB6728FAD63500839173 /* debt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = debt.html; sourceTree = "<group>"; };
+		8C82BB6828FAD63500839173 /* regret.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = regret.html; sourceTree = "<group>"; };
+		8C82BB6928FAD63500839173 /* childhood.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = childhood.html; sourceTree = "<group>"; };
+		8C82BB6A28FAD63500839173 /* usury.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = usury.html; sourceTree = "<group>"; };
+		8C82BB6B28FAD63500839173 /* cheerfulness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cheerfulness.html; sourceTree = "<group>"; };
+		8C82BB6C28FAD63500839173 /* faith.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = faith.html; sourceTree = "<group>"; };
+		8C82BB6D28FAD63500839173 /* loyalty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = loyalty.html; sourceTree = "<group>"; };
+		8C82BB6E28FAD63500839173 /* cowardice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cowardice.html; sourceTree = "<group>"; };
+		8C82BB6F28FAD63500839173 /* infatuation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = infatuation.html; sourceTree = "<group>"; };
+		8C82BB7028FAD63500839173 /* the_gift.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_gift.html; sourceTree = "<group>"; };
+		8C82BB7128FAD63500839173 /* intimacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intimacy.html; sourceTree = "<group>"; };
+		8C82BB7228FAD63500839173 /* quenching.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = quenching.html; sourceTree = "<group>"; };
+		8C82BB7328FAD63500839173 /* betrayal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = betrayal.html; sourceTree = "<group>"; };
+		8C82BB7428FAD63500839173 /* judgement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = judgement.html; sourceTree = "<group>"; };
+		8C82BB7528FAD63500839173 /* lifespan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lifespan.html; sourceTree = "<group>"; };
+		8C82BB7628FAD63500839173 /* jurisprudence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jurisprudence.html; sourceTree = "<group>"; };
+		8C82BB7728FAD63500839173 /* lifestyle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lifestyle.html; sourceTree = "<group>"; };
+		8C82BB7828FAD63500839173 /* good.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = good.html; sourceTree = "<group>"; };
+		8C82BB7928FAD63500839173 /* employment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = employment.html; sourceTree = "<group>"; };
+		8C82BB7A28FAD63500839173 /* asceticism.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = asceticism.html; sourceTree = "<group>"; };
+		8C82BB7B28FAD63500839173 /* assurance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = assurance.html; sourceTree = "<group>"; };
+		8C82BB7C28FAD63500839173 /* hypocrisy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hypocrisy.html; sourceTree = "<group>"; };
+		8C82BB7D28FAD63500839173 /* vitality.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vitality.html; sourceTree = "<group>"; };
+		8C82BB7E28FAD63500839173 /* bearing_witness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bearing_witness.html; sourceTree = "<group>"; };
+		8C82BB7F28FAD63500839173 /* aggression.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aggression.html; sourceTree = "<group>"; };
+		8C82BB8028FAD63500839173 /* godwariness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = godwariness.html; sourceTree = "<group>"; };
+		8C82BB8128FAD63500839173 /* truthfulness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = truthfulness.html; sourceTree = "<group>"; };
+		8C82BB8228FAD63500839173 /* brushing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = brushing.html; sourceTree = "<group>"; };
+		8C82BB8328FAD63500839173 /* friday.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = friday.html; sourceTree = "<group>"; };
+		8C82BB8428FAD63500839173 /* gambling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gambling.html; sourceTree = "<group>"; };
+		8C82BB8528FAD63500839173 /* captive.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = captive.html; sourceTree = "<group>"; };
+		8C82BB8628FAD63500839173 /* polytheism.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polytheism.html; sourceTree = "<group>"; };
+		8C82BB8728FAD63500839173 /* killing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = killing.html; sourceTree = "<group>"; };
+		8C82BB8828FAD63500839173 /* sinning.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sinning.html; sourceTree = "<group>"; };
+		8C82BB8928FAD63500839173 /* beauty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = beauty.html; sourceTree = "<group>"; };
+		8C82BB8A28FAD63500839173 /* fasting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fasting.html; sourceTree = "<group>"; };
+		8C82BB8B28FAD63500839173 /* bribery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bribery.html; sourceTree = "<group>"; };
+		8C82BB8C28FAD63500839173 /* lying.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lying.html; sourceTree = "<group>"; };
+		8C82BB8D28FAD63500839173 /* procrastination.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = procrastination.html; sourceTree = "<group>"; };
+		8C82BB8E28FAD63500839173 /* action.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = action.html; sourceTree = "<group>"; };
+		8C82BB8F28FAD63500839173 /* the_homeland.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_homeland.html; sourceTree = "<group>"; };
+		8C82BB9028FAD63500839173 /* the_lawful.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_lawful.html; sourceTree = "<group>"; };
+		8C82BB9128FAD63500839173 /* intention.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intention.html; sourceTree = "<group>"; };
+		8C82BB9228FAD63500839173 /* humility.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = humility.html; sourceTree = "<group>"; };
+		8C82BB9328FAD63500839173 /* predestination.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = predestination.html; sourceTree = "<group>"; };
+		8C82BB9428FAD63500839173 /* sorrow.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sorrow.html; sourceTree = "<group>"; };
+		8C82BB9528FAD63500839173 /* suspicion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = suspicion.html; sourceTree = "<group>"; };
+		8C82BB9628FAD63500839173 /* disbelief.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disbelief.html; sourceTree = "<group>"; };
+		8C82BB9728FAD63500839173 /* fear.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fear.html; sourceTree = "<group>"; };
+		8C82BB9828FAD63500839173 /* innovation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = innovation.html; sourceTree = "<group>"; };
+		8C82BB9928FAD63500839173 /* adornment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = adornment.html; sourceTree = "<group>"; };
+		8C82BB9A28FAD63500839173 /* honor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = honor.html; sourceTree = "<group>"; };
+		8C82BB9B28FAD63500839173 /* thanksgiving.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thanksgiving.html; sourceTree = "<group>"; };
+		8C82BB9C28FAD63500839173 /* financial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = financial.html; sourceTree = "<group>"; };
+		8C82BB9D28FAD63600839173 /* the_answer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_answer.html; sourceTree = "<group>"; };
+		8C82BB9E28FAD63600839173 /* asking_when_seeking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = asking_when_seeking.html; sourceTree = "<group>"; };
+		8C82BB9F28FAD63600839173 /* satan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = satan.html; sourceTree = "<group>"; };
+		8C82BBA028FAD63600839173 /* intoxication.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intoxication.html; sourceTree = "<group>"; };
+		8C82BBA128FAD63600839173 /* the_bathhouse.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_bathhouse.html; sourceTree = "<group>"; };
+		8C82BBA228FAD63600839173 /* scorn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scorn.html; sourceTree = "<group>"; };
+		8C82BBA328FAD63600839173 /* tyranny.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tyranny.html; sourceTree = "<group>"; };
+		8C82BBA428FAD63600839173 /* the_obscure.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_obscure.html; sourceTree = "<group>"; };
+		8C82BBA528FAD63600839173 /* greed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = greed.html; sourceTree = "<group>"; };
+		8C82BBA628FAD63600839173 /* the_name.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_name.html; sourceTree = "<group>"; };
+		8C82BBA728FAD63600839173 /* prosperity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = prosperity.html; sourceTree = "<group>"; };
+		8C82BBA828FAD63600839173 /* courage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = courage.html; sourceTree = "<group>"; };
+		8C82BBA928FAD63600839173 /* agriculture.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = agriculture.html; sourceTree = "<group>"; };
+		8C82BBAA28FAD63600839173 /* sustenance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sustenance.html; sourceTree = "<group>"; };
+		8C82BBAB28FAD63600839173 /* backbiting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = backbiting.html; sourceTree = "<group>"; };
+		8C82BBAC28FAD63600839173 /* negligence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = negligence.html; sourceTree = "<group>"; };
+		8C82BBAD28FAD63600839173 /* invoking_blessings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = invoking_blessings.html; sourceTree = "<group>"; };
+		8C82BBAE28FAD63600839173 /* spying.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = spying.html; sourceTree = "<group>"; };
+		8C82BBAF28FAD63600839173 /* state.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = state.html; sourceTree = "<group>"; };
+		8C82BBB028FAD63600839173 /* angels.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = angels.html; sourceTree = "<group>"; };
+		8C82BBB128FAD63600839173 /* amicableness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = amicableness.html; sourceTree = "<group>"; };
+		8C82BBB228FAD63600839173 /* whitebkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whitebkg.jpg; sourceTree = "<group>"; };
+		8C82BBB328FAD63600839173 /* resurrection.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = resurrection.html; sourceTree = "<group>"; };
+		8C82BBB428FAD63600839173 /* divorce.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = divorce.html; sourceTree = "<group>"; };
+		8C82BBB528FAD63600839173 /* evil.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = evil.html; sourceTree = "<group>"; };
+		8C82BBB628FAD63600839173 /* war.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = war.html; sourceTree = "<group>"; };
+		8C82BBB728FAD63600839173 /* travel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = travel.html; sourceTree = "<group>"; };
+		8C82BBB828FAD63600839173 /* pardon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pardon.html; sourceTree = "<group>"; };
+		8C82BBB928FAD63600839173 /* the_moral_less.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_moral_less.html; sourceTree = "<group>"; };
+		8C82BBBA28FAD63600839173 /* aashura.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aashura.html; sourceTree = "<group>"; };
+		8C82BBBB28FAD63600839173 /* remembrance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = remembrance.html; sourceTree = "<group>"; };
+		8C82BBBC28FAD63600839173 /* condolence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = condolence.html; sourceTree = "<group>"; };
+		8C82BBBD28FAD63600839173 /* marriage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = marriage.html; sourceTree = "<group>"; };
+		8C82BBBE28FAD63600839173 /* inner_knowledge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inner_knowledge.html; sourceTree = "<group>"; };
+		8C82BBBF28FAD63600839173 /* dreams.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dreams.html; sourceTree = "<group>"; };
+		8C82BBC028FAD63600839173 /* supplication.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = supplication.html; sourceTree = "<group>"; };
+		8C82BBC128FAD63600839173 /* wisdom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wisdom.html; sourceTree = "<group>"; };
+		8C82BBC228FAD63600839173 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		8C82BBC328FAD63600839173 /* the_festival.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_festival.html; sourceTree = "<group>"; };
+		8C82BBC428FAD63600839173 /* parent_child.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = parent_child.html; sourceTree = "<group>"; };
+		8C82BBC528FAD63600839173 /* religion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = religion.html; sourceTree = "<group>"; };
+		8C82BBC628FAD63600839173 /* cleanliness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cleanliness.html; sourceTree = "<group>"; };
+		8C82BBC728FAD63600839173 /* ignorance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ignorance.html; sourceTree = "<group>"; };
+		8C82BBC828FAD63600839173 /* music.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = music.html; sourceTree = "<group>"; };
+		8C82BBC928FAD63600839173 /* wretchedness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wretchedness.html; sourceTree = "<group>"; };
+		8C82BBCA28FAD63600839173 /* laziness.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = laziness.html; sourceTree = "<group>"; };
+		8C82BBCB28FAD63600839173 /* visiting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = visiting.html; sourceTree = "<group>"; };
+		8C82BBCC28FAD63600839173 /* the_blessing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_blessing.html; sourceTree = "<group>"; };
+		8C82BBCD28FAD63600839173 /* comfort.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = comfort.html; sourceTree = "<group>"; };
+		8C82BBCE28FAD63600839173 /* worship.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = worship.html; sourceTree = "<group>"; };
+		8C82BBCF28FAD63600839173 /* doubt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doubt.html; sourceTree = "<group>"; };
+		8C82BBD028FAD63600839173 /* the_night_prayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = the_night_prayer.html; sourceTree = "<group>"; };
+		8C82BD1028FAE08800839173 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		8C8861C528FACA8B008D3886 /* PearlsOfWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PearlsOfWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8861C828FACA8B008D3886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C8861CA28FACA8B008D3886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C8861D128FACA8C008D3886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8861D428FACA8C008D3886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C8861D628FACA8C008D3886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8861DB28FACA8C008D3886 /* PearlsOfWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlsOfWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8861DF28FACA8C008D3886 /* PearlsOfWisdomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsOfWisdomTests.swift; sourceTree = "<group>"; };
+		8C8861E528FACA8C008D3886 /* PearlsOfWisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlsOfWisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8861E928FACA8C008D3886 /* PearlsOfWisdomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsOfWisdomUITests.swift; sourceTree = "<group>"; };
+		8C8861EB28FACA8C008D3886 /* PearlsOfWisdomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsOfWisdomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C8861FC28FACB15008D3886 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8C88620528FACDA6008D3886 /* UI+new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+new.swift"; sourceTree = "<group>"; };
+		8C88620928FACE35008D3886 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8C88620B28FACF45008D3886 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8861C228FACA8B008D3886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C88620028FACB4E008D3886 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8861D828FACA8C008D3886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8861E228FACA8C008D3886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C82BA9228FAD63500839173 /* htmls */ = {
+			isa = PBXGroup;
+			children = (
+				8C82BA9328FAD63500839173 /* hope.html */,
+				8C82BA9428FAD63500839173 /* sincerity.html */,
+				8C82BA9528FAD63500839173 /* the_brother.html */,
+				8C82BA9628FAD63500839173 /* the_loan.html */,
+				8C82BA9728FAD63500839173 /* suckling.html */,
+				8C82BA9828FAD63500839173 /* falsehood.html */,
+				8C82BA9928FAD63500839173 /* good_repute.html */,
+				8C82BA9A28FAD63500839173 /* exhortation.html */,
+				8C82BA9B28FAD63500839173 /* bounties.html */,
+				8C82BA9C28FAD63500839173 /* disgrace.html */,
+				8C82BA9D28FAD63500839173 /* compassion.html */,
+				8C82BA9E28FAD63500839173 /* the_habit.html */,
+				8C82BA9F28FAD63500839173 /* obscene_lang.html */,
+				8C82BAA028FAD63500839173 /* the_fault.html */,
+				8C82BAA128FAD63500839173 /* insulting.html */,
+				8C82BAA228FAD63500839173 /* amusement.html */,
+				8C82BAA328FAD63500839173 /* the_creator.html */,
+				8C82BAA428FAD63500839173 /* happiness.html */,
+				8C82BAA528FAD63500839173 /* self_restraint.html */,
+				8C82BAA628FAD63500839173 /* divine_mercy.html */,
+				8C82BAA728FAD63500839173 /* the_reward.html */,
+				8C82BAA828FAD63500839173 /* the_world.html */,
+				8C82BAA928FAD63500839173 /* scrutiny.html */,
+				8C82BAAA28FAD63500839173 /* shaking_hand.html */,
+				8C82BAAB28FAD63500839173 /* partisanship.html */,
+				8C82BAAC28FAD63500839173 /* lesser_jihad.html */,
+				8C82BAAD28FAD63500839173 /* common_courtesy.html */,
+				8C82BAAE28FAD63500839173 /* solitude.html */,
+				8C82BAAF28FAD63500839173 /* the_truth.html */,
+				8C82BAB028FAD63500839173 /* allah.html */,
+				8C82BAB128FAD63500839173 /* feeding_others.html */,
+				8C82BAB228FAD63500839173 /* rancour.html */,
+				8C82BAB328FAD63500839173 /* straying.html */,
+				8C82BAB428FAD63500839173 /* housing.html */,
+				8C82BAB528FAD63500839173 /* guidance.html */,
+				8C82BAB628FAD63500839173 /* conjecture.html */,
+				8C82BAB728FAD63500839173 /* consanguinal.html */,
+				8C82BAB828FAD63500839173 /* retreat.html */,
+				8C82BAB928FAD63500839173 /* joking.html */,
+				8C82BABA28FAD63500839173 /* thinking.html */,
+				8C82BABB28FAD63500839173 /* corruption.html */,
+				8C82BABC28FAD63500839173 /* pride.html */,
+				8C82BABD28FAD63500839173 /* contentment.html */,
+				8C82BABE28FAD63500839173 /* destruction.html */,
+				8C82BABF28FAD63500839173 /* people.html */,
+				8C82BAC028FAD63500839173 /* secrecy.html */,
+				8C82BAC128FAD63500839173 /* government.html */,
+				8C82BAC228FAD63500839173 /* veneration.html */,
+				8C82BAC328FAD63500839173 /* devilish.html */,
+				8C82BAC428FAD63500839173 /* the_end.html */,
+				8C82BAC528FAD63500839173 /* knowledge.html */,
+				8C82BAC628FAD63500839173 /* sitting_company.html */,
+				8C82BAC728FAD63500839173 /* expectation.html */,
+				8C82BAC828FAD63500839173 /* resentment.html */,
+				8C82BAC928FAD63500839173 /* possessiveness.html */,
+				8C82BACA28FAD63500839173 /* remedy.html */,
+				8C82BACB28FAD63500839173 /* creation.html */,
+				8C82BACC28FAD63500839173 /* emulation.html */,
+				8C82BACD28FAD63500839173 /* prostration.html */,
+				8C82BACE28FAD63500839173 /* alms_tax.html */,
+				8C82BACF28FAD63500839173 /* enmity.html */,
+				8C82BAD028FAD63500839173 /* sickness.html */,
+				8C82BAD128FAD63500839173 /* the_intellect.html */,
+				8C82BAD228FAD63500839173 /* obligations.html */,
+				8C82BAD328FAD63500839173 /* perfume.html */,
+				8C82BAD428FAD63500839173 /* anxiety.html */,
+				8C82BAD528FAD63500839173 /* ascetism.html */,
+				8C82BAD628FAD63500839173 /* the_friday_prayer.html */,
+				8C82BAD728FAD63500839173 /* obedience.html */,
+				8C82BAD828FAD63500839173 /* madness.html */,
+				8C82BAD928FAD63500839173 /* the_call_for.html */,
+				8C82BADA28FAD63500839173 /* life.html */,
+				8C82BADB28FAD63500839173 /* the_voice.html */,
+				8C82BADC28FAD63500839173 /* counsel.html */,
+				8C82BADD28FAD63500839173 /* self_sacrifice.html */,
+				8C82BADE28FAD63500839173 /* advising.html */,
+				8C82BADF28FAD63500839173 /* good_manners.html */,
+				8C82BAE028FAD63500839173 /* usurpation.html */,
+				8C82BAE128FAD63500839173 /* listening.html */,
+				8C82BAE228FAD63500839173 /* differences.html */,
+				8C82BAE328FAD63500839173 /* repentance.html */,
+				8C82BAE428FAD63500839173 /* the_need.html */,
+				8C82BAE528FAD63500839173 /* concealment.html */,
+				8C82BAE628FAD63500839173 /* satisfaction.html */,
+				8C82BAE728FAD63500839173 /* submission.html */,
+				8C82BAE828FAD63500839173 /* the_ruler.html */,
+				8C82BAE928FAD63500839173 /* idleness.html */,
+				8C82BAEA28FAD63500839173 /* anipathy.html */,
+				8C82BAEB28FAD63500839173 /* eloquence.html */,
+				8C82BAEC28FAD63500839173 /* the_desire.html */,
+				8C82BAED28FAD63500839173 /* foolishness.html */,
+				8C82BAEE28FAD63500839173 /* meeting_allah.html */,
+				8C82BAEF28FAD63500839173 /* duty.html */,
+				8C82BAF028FAD63500839173 /* ramazan.html */,
+				8C82BAF128FAD63500839173 /* intercession.html */,
+				8C82BAF228FAD63500839173 /* oppotunity.html */,
+				8C82BAF328FAD63500839173 /* leniency.html */,
+				8C82BAF428FAD63500839173 /* the_light.html */,
+				8C82BAF528FAD63500839173 /* open_handed.html */,
+				8C82BAF628FAD63500839173 /* fairness.html */,
+				8C82BAF728FAD63500839173 /* covenant.html */,
+				8C82BAF828FAD63500839173 /* delusion.html */,
+				8C82BAF928FAD63500839173 /* perfection.html */,
+				8C82BAFA28FAD63500839173 /* merit.html */,
+				8C82BAFB28FAD63500839173 /* riches.html */,
+				8C82BAFC28FAD63500839173 /* hospitality.html */,
+				8C82BAFD28FAD63500839173 /* trees.html */,
+				8C82BAFE28FAD63500839173 /* islam.html */,
+				8C82BAFF28FAD63500839173 /* the_prayer.html */,
+				8C82BB0028FAD63500839173 /* opinion.html */,
+				8C82BB0128FAD63500839173 /* the_chief.html */,
+				8C82BB0228FAD63500839173 /* justice.html */,
+				8C82BB0328FAD63500839173 /* haste.html */,
+				8C82BB0428FAD63500839173 /* youth.html */,
+				8C82BB0528FAD63500839173 /* arrogance.html */,
+				8C82BB0628FAD63500839173 /* the_heart.html */,
+				8C82BB0728FAD63500839173 /* animals.html */,
+				8C82BB0828FAD63500839173 /* habitual.html */,
+				8C82BB0928FAD63500839173 /* clemency.html */,
+				8C82BB0A28FAD63500839173 /* insight.html */,
+				8C82BB0B28FAD63500839173 /* alcohol.html */,
+				8C82BB0C28FAD63500839173 /* dissimulation.html */,
+				8C82BB0D28FAD63500839173 /* affliction.html */,
+				8C82BB0E28FAD63500839173 /* paradise.html */,
+				8C82BB0F28FAD63500839173 /* making_excuses.html */,
+				8C82BB1028FAD63500839173 /* self_admiration.html */,
+				8C82BB1128FAD63500839173 /* the_spirit.html */,
+				8C82BB1228FAD63500839173 /* divider1.png */,
+				8C82BB1328FAD63500839173 /* laughter.html */,
+				8C82BB1428FAD63500839173 /* anger.html */,
+				8C82BB1528FAD63500839173 /* time.html */,
+				8C82BB1628FAD63500839173 /* the_unseen.html */,
+				8C82BB1728FAD63500839173 /* enjoining_good.html */,
+				8C82BB1828FAD63500839173 /* old_age.html */,
+				8C82BB1928FAD63500839173 /* senility.html */,
+				8C82BB1A28FAD63500839173 /* the_sitting.html */,
+				8C82BB1B28FAD63500839173 /* infallibility.html */,
+				8C82BB1C28FAD63500839173 /* backgrd.jpg */,
+				8C82BB1D28FAD63500839173 /* martyrdom.html */,
+				8C82BB1E28FAD63500839173 /* staying_awake.html */,
+				8C82BB1F28FAD63500839173 /* the_marketplace.html */,
+				8C82BB2028FAD63500839173 /* extremism.html */,
+				8C82BB2128FAD63500839173 /* the_verdict.html */,
+				8C82BB2228FAD63500839173 /* loss.html */,
+				8C82BB2328FAD63500839173 /* the_muslim.html */,
+				8C82BB2428FAD63500839173 /* background.png */,
+				8C82BB2528FAD63500839173 /* fornication.html */,
+				8C82BB2628FAD63500839173 /* decree_destiny.html */,
+				8C82BB2728FAD63500839173 /* disputation.html */,
+				8C82BB2828FAD63500839173 /* trial_temptation.html */,
+				8C82BB2928FAD63500839173 /* showing_off.html */,
+				8C82BB2A28FAD63500839173 /* nobility.html */,
+				8C82BB2B28FAD63500839173 /* ablution.html */,
+				8C82BB2C28FAD63500839173 /* character.html */,
+				8C82BB2D28FAD63500839173 /* humbleness.html */,
+				8C82BB2E28FAD63500839173 /* clothing.html */,
+				8C82BB2F28FAD63500839173 /* muhammad.html */,
+				8C82BB3028FAD63500839173 /* ashura.html */,
+				8C82BB3128FAD63500839173 /* charity.html */,
+				8C82BB3228FAD63500839173 /* jihad.html */,
+				8C82BB3328FAD63500839173 /* social_interaction.html */,
+				8C82BB3428FAD63500839173 /* ambition.html */,
+				8C82BB3528FAD63500839173 /* wrongdoing.html */,
+				8C82BB3628FAD63500839173 /* experience.html */,
+				8C82BB3728FAD63500839173 /* swindling.html */,
+				8C82BB3828FAD63500839173 /* the_rights.html */,
+				8C82BB3928FAD63500839173 /* nails.html */,
+				8C82BB3A28FAD63500839173 /* the_persians.html */,
+				8C82BB3B28FAD63500839173 /* food.html */,
+				8C82BB3C28FAD63500839173 /* allahs_pleasure.html */,
+				8C82BB3D28FAD63500839173 /* praise.html */,
+				8C82BB3E28FAD63500839173 /* management.html */,
+				8C82BB3F28FAD63500839173 /* inner_know_allah.html */,
+				8C82BB4028FAD63500839173 /* the_mosque.html */,
+				8C82BB4128FAD63500839173 /* the_path.html */,
+				8C82BB4228FAD63500839173 /* the_congregation.html */,
+				8C82BB4328FAD63500839173 /* economics.html */,
+				8C82BB4428FAD63500839173 /* desertion.html */,
+				8C82BB4528FAD63500839173 /* purity.html */,
+				8C82BB4628FAD63500839173 /* wasting.html */,
+				8C82BB4728FAD63500839173 /* peacemaking.html */,
+				8C82BB4828FAD63500839173 /* greeting.html */,
+				8C82BB4928FAD63500839173 /* modesty.html */,
+				8C82BB4A28FAD63500839173 /* responsibility.html */,
+				8C82BB4B28FAD63500839173 /* condemnation.html */,
+				8C82BB4C28FAD63500839173 /* the_greater_jihad.html */,
+				8C82BB4D28FAD63500839173 /* patience.html */,
+				8C82BB4E28FAD63500839173 /* fame.html */,
+				8C82BB4F28FAD63500839173 /* earnings.html */,
+				8C82BB5028FAD63500839173 /* piety.html */,
+				8C82BB5128FAD63500839173 /* hell.html */,
+				8C82BB5228FAD63500839173 /* silence.html */,
+				8C82BB5328FAD63500839173 /* generosity.html */,
+				8C82BB5428FAD63500839173 /* commerce.html */,
+				8C82BB5528FAD63500839173 /* the_shia.html */,
+				8C82BB5628FAD63500839173 /* death.html */,
+				8C82BB5728FAD63500839173 /* harm.html */,
+				8C82BB5828FAD63500839173 /* the_preordained.html */,
+				8C82BB5928FAD63500839173 /* the_prohibited.html */,
+				8C82BB5A28FAD63500839173 /* the_promise.html */,
+				8C82BB5B28FAD63500839173 /* service.html */,
+				8C82BB5C28FAD63500839173 /* the_hereafter.html */,
+				8C82BB5D28FAD63500839173 /* the_friend.html */,
+				8C82BB5E28FAD63500839173 /* seeking_forgive.html */,
+				8C82BB5F28FAD63500839173 /* banes.html */,
+				8C82BB6028FAD63500839173 /* the_dispute.html */,
+				8C82BB6128FAD63500839173 /* the_abased.html */,
+				8C82BB6228FAD63500839173 /* poverty.html */,
+				8C82BB6328FAD63500839173 /* amity.html */,
+				8C82BB6428FAD63500839173 /* migration.html */,
+				8C82BB6528FAD63500839173 /* blessing.html */,
+				8C82BB6628FAD63500839173 /* prudence.html */,
+				8C82BB6728FAD63500839173 /* debt.html */,
+				8C82BB6828FAD63500839173 /* regret.html */,
+				8C82BB6928FAD63500839173 /* childhood.html */,
+				8C82BB6A28FAD63500839173 /* usury.html */,
+				8C82BB6B28FAD63500839173 /* cheerfulness.html */,
+				8C82BB6C28FAD63500839173 /* faith.html */,
+				8C82BB6D28FAD63500839173 /* loyalty.html */,
+				8C82BB6E28FAD63500839173 /* cowardice.html */,
+				8C82BB6F28FAD63500839173 /* infatuation.html */,
+				8C82BB7028FAD63500839173 /* the_gift.html */,
+				8C82BB7128FAD63500839173 /* intimacy.html */,
+				8C82BB7228FAD63500839173 /* quenching.html */,
+				8C82BB7328FAD63500839173 /* betrayal.html */,
+				8C82BB7428FAD63500839173 /* judgement.html */,
+				8C82BB7528FAD63500839173 /* lifespan.html */,
+				8C82BB7628FAD63500839173 /* jurisprudence.html */,
+				8C82BB7728FAD63500839173 /* lifestyle.html */,
+				8C82BB7828FAD63500839173 /* good.html */,
+				8C82BB7928FAD63500839173 /* employment.html */,
+				8C82BB7A28FAD63500839173 /* asceticism.html */,
+				8C82BB7B28FAD63500839173 /* assurance.html */,
+				8C82BB7C28FAD63500839173 /* hypocrisy.html */,
+				8C82BB7D28FAD63500839173 /* vitality.html */,
+				8C82BB7E28FAD63500839173 /* bearing_witness.html */,
+				8C82BB7F28FAD63500839173 /* aggression.html */,
+				8C82BB8028FAD63500839173 /* godwariness.html */,
+				8C82BB8128FAD63500839173 /* truthfulness.html */,
+				8C82BB8228FAD63500839173 /* brushing.html */,
+				8C82BB8328FAD63500839173 /* friday.html */,
+				8C82BB8428FAD63500839173 /* gambling.html */,
+				8C82BB8528FAD63500839173 /* captive.html */,
+				8C82BB8628FAD63500839173 /* polytheism.html */,
+				8C82BB8728FAD63500839173 /* killing.html */,
+				8C82BB8828FAD63500839173 /* sinning.html */,
+				8C82BB8928FAD63500839173 /* beauty.html */,
+				8C82BB8A28FAD63500839173 /* fasting.html */,
+				8C82BB8B28FAD63500839173 /* bribery.html */,
+				8C82BB8C28FAD63500839173 /* lying.html */,
+				8C82BB8D28FAD63500839173 /* procrastination.html */,
+				8C82BB8E28FAD63500839173 /* action.html */,
+				8C82BB8F28FAD63500839173 /* the_homeland.html */,
+				8C82BB9028FAD63500839173 /* the_lawful.html */,
+				8C82BB9128FAD63500839173 /* intention.html */,
+				8C82BB9228FAD63500839173 /* humility.html */,
+				8C82BB9328FAD63500839173 /* predestination.html */,
+				8C82BB9428FAD63500839173 /* sorrow.html */,
+				8C82BB9528FAD63500839173 /* suspicion.html */,
+				8C82BB9628FAD63500839173 /* disbelief.html */,
+				8C82BB9728FAD63500839173 /* fear.html */,
+				8C82BB9828FAD63500839173 /* innovation.html */,
+				8C82BB9928FAD63500839173 /* adornment.html */,
+				8C82BB9A28FAD63500839173 /* honor.html */,
+				8C82BB9B28FAD63500839173 /* thanksgiving.html */,
+				8C82BB9C28FAD63500839173 /* financial.html */,
+				8C82BB9D28FAD63600839173 /* the_answer.html */,
+				8C82BB9E28FAD63600839173 /* asking_when_seeking.html */,
+				8C82BB9F28FAD63600839173 /* satan.html */,
+				8C82BBA028FAD63600839173 /* intoxication.html */,
+				8C82BBA128FAD63600839173 /* the_bathhouse.html */,
+				8C82BBA228FAD63600839173 /* scorn.html */,
+				8C82BBA328FAD63600839173 /* tyranny.html */,
+				8C82BBA428FAD63600839173 /* the_obscure.html */,
+				8C82BBA528FAD63600839173 /* greed.html */,
+				8C82BBA628FAD63600839173 /* the_name.html */,
+				8C82BBA728FAD63600839173 /* prosperity.html */,
+				8C82BBA828FAD63600839173 /* courage.html */,
+				8C82BBA928FAD63600839173 /* agriculture.html */,
+				8C82BBAA28FAD63600839173 /* sustenance.html */,
+				8C82BBAB28FAD63600839173 /* backbiting.html */,
+				8C82BBAC28FAD63600839173 /* negligence.html */,
+				8C82BBAD28FAD63600839173 /* invoking_blessings.html */,
+				8C82BBAE28FAD63600839173 /* spying.html */,
+				8C82BBAF28FAD63600839173 /* state.html */,
+				8C82BBB028FAD63600839173 /* angels.html */,
+				8C82BBB128FAD63600839173 /* amicableness.html */,
+				8C82BBB228FAD63600839173 /* whitebkg.jpg */,
+				8C82BBB328FAD63600839173 /* resurrection.html */,
+				8C82BBB428FAD63600839173 /* divorce.html */,
+				8C82BBB528FAD63600839173 /* evil.html */,
+				8C82BBB628FAD63600839173 /* war.html */,
+				8C82BBB728FAD63600839173 /* travel.html */,
+				8C82BBB828FAD63600839173 /* pardon.html */,
+				8C82BBB928FAD63600839173 /* the_moral_less.html */,
+				8C82BBBA28FAD63600839173 /* aashura.html */,
+				8C82BBBB28FAD63600839173 /* remembrance.html */,
+				8C82BBBC28FAD63600839173 /* condolence.html */,
+				8C82BBBD28FAD63600839173 /* marriage.html */,
+				8C82BBBE28FAD63600839173 /* inner_knowledge.html */,
+				8C82BBBF28FAD63600839173 /* dreams.html */,
+				8C82BBC028FAD63600839173 /* supplication.html */,
+				8C82BBC128FAD63600839173 /* wisdom.html */,
+				8C82BBC228FAD63600839173 /* back.png */,
+				8C82BBC328FAD63600839173 /* the_festival.html */,
+				8C82BBC428FAD63600839173 /* parent_child.html */,
+				8C82BBC528FAD63600839173 /* religion.html */,
+				8C82BBC628FAD63600839173 /* cleanliness.html */,
+				8C82BBC728FAD63600839173 /* ignorance.html */,
+				8C82BBC828FAD63600839173 /* music.html */,
+				8C82BBC928FAD63600839173 /* wretchedness.html */,
+				8C82BBCA28FAD63600839173 /* laziness.html */,
+				8C82BBCB28FAD63600839173 /* visiting.html */,
+				8C82BBCC28FAD63600839173 /* the_blessing.html */,
+				8C82BBCD28FAD63600839173 /* comfort.html */,
+				8C82BBCE28FAD63600839173 /* worship.html */,
+				8C82BBCF28FAD63600839173 /* doubt.html */,
+				8C82BBD028FAD63600839173 /* the_night_prayer.html */,
+			);
+			path = htmls;
+			sourceTree = "<group>";
+		};
+		8C82BD0F28FAE07D00839173 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C82BD1028FAE08800839173 /* CustomSearchBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C8861BC28FACA8B008D3886 = {
+			isa = PBXGroup;
+			children = (
+				8C8861C728FACA8B008D3886 /* PearlsOfWisdom */,
+				8C8861DE28FACA8C008D3886 /* PearlsOfWisdomTests */,
+				8C8861E828FACA8C008D3886 /* PearlsOfWisdomUITests */,
+				8C8861C628FACA8B008D3886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8861C628FACA8B008D3886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8861C528FACA8B008D3886 /* PearlsOfWisdom.app */,
+				8C8861DB28FACA8C008D3886 /* PearlsOfWisdomTests.xctest */,
+				8C8861E528FACA8C008D3886 /* PearlsOfWisdomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8861C728FACA8B008D3886 /* PearlsOfWisdom */ = {
+			isa = PBXGroup;
+			children = (
+				8C88620328FACD82008D3886 /* App */,
+				8C88620228FACD7C008D3886 /* Extensions */,
+				8C8861F828FACAE1008D3886 /* Screens */,
+				8C88620428FACD88008D3886 /* Sources */,
+				8C8861D628FACA8C008D3886 /* Info.plist */,
+			);
+			path = PearlsOfWisdom;
+			sourceTree = "<group>";
+		};
+		8C8861DE28FACA8C008D3886 /* PearlsOfWisdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8861DF28FACA8C008D3886 /* PearlsOfWisdomTests.swift */,
+			);
+			path = PearlsOfWisdomTests;
+			sourceTree = "<group>";
+		};
+		8C8861E828FACA8C008D3886 /* PearlsOfWisdomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8861E928FACA8C008D3886 /* PearlsOfWisdomUITests.swift */,
+				8C8861EB28FACA8C008D3886 /* PearlsOfWisdomUITestsLaunchTests.swift */,
+			);
+			path = PearlsOfWisdomUITests;
+			sourceTree = "<group>";
+		};
+		8C8861F828FACAE1008D3886 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8C8861F928FACAE6008D3886 /* Home */,
+				8C8861FA28FACAEA008D3886 /* Detail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8C8861F928FACAE6008D3886 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C82BD0F28FAE07D00839173 /* Views */,
+				8C88620828FACE24008D3886 /* Cells */,
+				8C88620728FACE19008D3886 /* ViewModels */,
+				8C8861FB28FACB01008D3886 /* ViewControllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8C8861FA28FACAEA008D3886 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8C82BA9028FAD50900839173 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8C8861FB28FACB01008D3886 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C8861FC28FACB15008D3886 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C88620228FACD7C008D3886 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C88620528FACDA6008D3886 /* UI+new.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C88620328FACD82008D3886 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C8861C828FACA8B008D3886 /* AppDelegate.swift */,
+				8C8861CA28FACA8B008D3886 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8C88620428FACD88008D3886 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8C82BA9228FAD63500839173 /* htmls */,
+				8C82BA8C28FAD1AB00839173 /* AppData.json */,
+				8C8861D128FACA8C008D3886 /* Assets.xcassets */,
+				8C8861D328FACA8C008D3886 /* LaunchScreen.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8C88620728FACE19008D3886 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C82BA8E28FAD1E500839173 /* AppDataModel.swift */,
+				8C88620B28FACF45008D3886 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C88620828FACE24008D3886 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8C88620928FACE35008D3886 /* HomeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8861C428FACA8B008D3886 /* PearlsOfWisdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8861EF28FACA8C008D3886 /* Build configuration list for PBXNativeTarget "PearlsOfWisdom" */;
+			buildPhases = (
+				8C8861C128FACA8B008D3886 /* Sources */,
+				8C8861C228FACA8B008D3886 /* Frameworks */,
+				8C8861C328FACA8B008D3886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PearlsOfWisdom;
+			packageProductDependencies = (
+				8C8861FF28FACB4E008D3886 /* SnapKit */,
+			);
+			productName = PearlsOfWisdom;
+			productReference = 8C8861C528FACA8B008D3886 /* PearlsOfWisdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C8861DA28FACA8C008D3886 /* PearlsOfWisdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8861F228FACA8C008D3886 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomTests" */;
+			buildPhases = (
+				8C8861D728FACA8C008D3886 /* Sources */,
+				8C8861D828FACA8C008D3886 /* Frameworks */,
+				8C8861D928FACA8C008D3886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8861DD28FACA8C008D3886 /* PBXTargetDependency */,
+			);
+			name = PearlsOfWisdomTests;
+			productName = PearlsOfWisdomTests;
+			productReference = 8C8861DB28FACA8C008D3886 /* PearlsOfWisdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8861E428FACA8C008D3886 /* PearlsOfWisdomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8861F528FACA8C008D3886 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomUITests" */;
+			buildPhases = (
+				8C8861E128FACA8C008D3886 /* Sources */,
+				8C8861E228FACA8C008D3886 /* Frameworks */,
+				8C8861E328FACA8C008D3886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8861E728FACA8C008D3886 /* PBXTargetDependency */,
+			);
+			name = PearlsOfWisdomUITests;
+			productName = PearlsOfWisdomUITests;
+			productReference = 8C8861E528FACA8C008D3886 /* PearlsOfWisdomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8861BD28FACA8B008D3886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8C8861C428FACA8B008D3886 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					8C8861DA28FACA8C008D3886 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8C8861C428FACA8B008D3886;
+					};
+					8C8861E428FACA8C008D3886 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8C8861C428FACA8B008D3886;
+					};
+				};
+			};
+			buildConfigurationList = 8C8861C028FACA8B008D3886 /* Build configuration list for PBXProject "PearlsOfWisdom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C8861BC28FACA8B008D3886;
+			packageReferences = (
+				8C8861FE28FACB4E008D3886 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 8C8861C628FACA8B008D3886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8861C428FACA8B008D3886 /* PearlsOfWisdom */,
+				8C8861DA28FACA8C008D3886 /* PearlsOfWisdomTests */,
+				8C8861E428FACA8C008D3886 /* PearlsOfWisdomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8861C328FACA8B008D3886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C82BC9E28FAD63600839173 /* the_dispute.html in Resources */,
+				8C82BC7928FAD63600839173 /* food.html in Resources */,
+				8C82BCA428FAD63600839173 /* prudence.html in Resources */,
+				8C82BC7328FAD63600839173 /* wrongdoing.html in Resources */,
+				8C82BBF628FAD63600839173 /* retreat.html in Resources */,
+				8C82BCF128FAD63600839173 /* resurrection.html in Resources */,
+				8C82BCCE28FAD63600839173 /* the_lawful.html in Resources */,
+				8C82BBD528FAD63600839173 /* suckling.html in Resources */,
+				8C82BC5F28FAD63600839173 /* the_verdict.html in Resources */,
+				8C82BBEC28FAD63600839173 /* solitude.html in Resources */,
+				8C82BCD928FAD63600839173 /* thanksgiving.html in Resources */,
+				8C82BCD828FAD63600839173 /* honor.html in Resources */,
+				8C82BCE428FAD63600839173 /* the_name.html in Resources */,
+				8C82BCCA28FAD63600839173 /* lying.html in Resources */,
+				8C82BBF228FAD63600839173 /* housing.html in Resources */,
+				8C82BCA028FAD63600839173 /* poverty.html in Resources */,
+				8C82BCC728FAD63600839173 /* beauty.html in Resources */,
+				8C82BD0228FAD63600839173 /* parent_child.html in Resources */,
+				8C82BD0A28FAD63600839173 /* the_blessing.html in Resources */,
+				8C82BCE628FAD63600839173 /* courage.html in Resources */,
+				8C82BC9028FAD63600839173 /* silence.html in Resources */,
+				8C82BCFF28FAD63600839173 /* wisdom.html in Resources */,
+				8C82BCD628FAD63600839173 /* innovation.html in Resources */,
+				8C82BC0D28FAD63600839173 /* enmity.html in Resources */,
+				8C82BCEA28FAD63600839173 /* negligence.html in Resources */,
+				8C82BBE228FAD63600839173 /* happiness.html in Resources */,
+				8C82BCAC28FAD63600839173 /* cowardice.html in Resources */,
+				8C82BC7028FAD63600839173 /* jihad.html in Resources */,
+				8C82BC3328FAD63600839173 /* open_handed.html in Resources */,
+				8C82BC5828FAD63600839173 /* the_sitting.html in Resources */,
+				8C82BC2528FAD63600839173 /* submission.html in Resources */,
+				8C82BC4228FAD63600839173 /* youth.html in Resources */,
+				8C82BC4928FAD63600839173 /* alcohol.html in Resources */,
+				8C82BBDA28FAD63600839173 /* disgrace.html in Resources */,
+				8C82BC6A28FAD63600839173 /* character.html in Resources */,
+				8C82BBF028FAD63600839173 /* rancour.html in Resources */,
+				8C82BC0528FAD63600839173 /* expectation.html in Resources */,
+				8C82BC8928FAD63600839173 /* condemnation.html in Resources */,
+				8C82BC0628FAD63600839173 /* resentment.html in Resources */,
+				8C82BC2628FAD63600839173 /* the_ruler.html in Resources */,
+				8C82BC5D28FAD63600839173 /* the_marketplace.html in Resources */,
+				8C82BCEF28FAD63600839173 /* amicableness.html in Resources */,
+				8C82BC6928FAD63600839173 /* ablution.html in Resources */,
+				8C82BCDC28FAD63600839173 /* asking_when_seeking.html in Resources */,
+				8C82BCF028FAD63600839173 /* whitebkg.jpg in Resources */,
+				8C82BC5528FAD63600839173 /* enjoining_good.html in Resources */,
+				8C82BC7228FAD63600839173 /* ambition.html in Resources */,
+				8C82BC1A28FAD63600839173 /* counsel.html in Resources */,
+				8C82BBFA28FAD63600839173 /* pride.html in Resources */,
+				8C82BCC928FAD63600839173 /* bribery.html in Resources */,
+				8C82BC6628FAD63600839173 /* trial_temptation.html in Resources */,
+				8C82BC8E28FAD63600839173 /* piety.html in Resources */,
+				8C82BC1E28FAD63600839173 /* usurpation.html in Resources */,
+				8C82BC1928FAD63600839173 /* the_voice.html in Resources */,
+				8C82BC9A28FAD63600839173 /* the_hereafter.html in Resources */,
+				8C82BCE228FAD63600839173 /* the_obscure.html in Resources */,
+				8C82BC8628FAD63600839173 /* greeting.html in Resources */,
+				8C82BC6D28FAD63600839173 /* muhammad.html in Resources */,
+				8C82BCB828FAD63600839173 /* asceticism.html in Resources */,
+				8C82BC3E28FAD63600839173 /* opinion.html in Resources */,
+				8C82BC5728FAD63600839173 /* senility.html in Resources */,
+				8C82BC8828FAD63600839173 /* responsibility.html in Resources */,
+				8C82BC8228FAD63600839173 /* desertion.html in Resources */,
+				8C82BCA528FAD63600839173 /* debt.html in Resources */,
+				8C82BC1C28FAD63600839173 /* advising.html in Resources */,
+				8C82BC1228FAD63600839173 /* anxiety.html in Resources */,
+				8C82BC5628FAD63600839173 /* old_age.html in Resources */,
+				8C82BC0128FAD63600839173 /* devilish.html in Resources */,
+				8C82BC1D28FAD63600839173 /* good_manners.html in Resources */,
+				8C82BCB528FAD63600839173 /* lifestyle.html in Resources */,
+				8C82BCBD28FAD63600839173 /* aggression.html in Resources */,
+				8C82BCDA28FAD63600839173 /* financial.html in Resources */,
+				8C82BCBF28FAD63600839173 /* truthfulness.html in Resources */,
+				8C82BCAF28FAD63600839173 /* intimacy.html in Resources */,
+				8C82BC5128FAD63600839173 /* laughter.html in Resources */,
+				8C82BC9B28FAD63600839173 /* the_friend.html in Resources */,
+				8C82BCC128FAD63600839173 /* friday.html in Resources */,
+				8C82BBF128FAD63600839173 /* straying.html in Resources */,
+				8C82BC1B28FAD63600839173 /* self_sacrifice.html in Resources */,
+				8C82BC7C28FAD63600839173 /* management.html in Resources */,
+				8C82BD0828FAD63600839173 /* laziness.html in Resources */,
+				8C82BC1828FAD63600839173 /* life.html in Resources */,
+				8C82BCD328FAD63600839173 /* suspicion.html in Resources */,
+				8C82BCA928FAD63600839173 /* cheerfulness.html in Resources */,
+				8C82BCE928FAD63600839173 /* backbiting.html in Resources */,
+				8C82BBD428FAD63600839173 /* the_loan.html in Resources */,
+				8C82BC1528FAD63600839173 /* obedience.html in Resources */,
+				8C82BCC528FAD63600839173 /* killing.html in Resources */,
+				8C82BC4B28FAD63600839173 /* affliction.html in Resources */,
+				8C82BC7A28FAD63600839173 /* allahs_pleasure.html in Resources */,
+				8C82BCD228FAD63600839173 /* sorrow.html in Resources */,
+				8C82BC8528FAD63600839173 /* peacemaking.html in Resources */,
+				8C82BC6828FAD63600839173 /* nobility.html in Resources */,
+				8C82BCC328FAD63600839173 /* captive.html in Resources */,
+				8C82BBD128FAD63600839173 /* hope.html in Resources */,
+				8C82BCBE28FAD63600839173 /* godwariness.html in Resources */,
+				8C82BCF428FAD63600839173 /* war.html in Resources */,
+				8C82BCA828FAD63600839173 /* usury.html in Resources */,
+				8C82BD0428FAD63600839173 /* cleanliness.html in Resources */,
+				8C82BCDE28FAD63600839173 /* intoxication.html in Resources */,
+				8C82BC0B28FAD63600839173 /* prostration.html in Resources */,
+				8C82BBDF28FAD63600839173 /* insulting.html in Resources */,
+				8C82BC3F28FAD63600839173 /* the_chief.html in Resources */,
+				8C82BC0328FAD63600839173 /* knowledge.html in Resources */,
+				8C82BC4028FAD63600839173 /* justice.html in Resources */,
+				8C82BCF528FAD63600839173 /* travel.html in Resources */,
+				8C82BBF928FAD63600839173 /* corruption.html in Resources */,
+				8C82BCEC28FAD63600839173 /* spying.html in Resources */,
+				8C82BC3A28FAD63600839173 /* hospitality.html in Resources */,
+				8C82BC4628FAD63600839173 /* habitual.html in Resources */,
+				8C82BCDF28FAD63600839173 /* the_bathhouse.html in Resources */,
+				8C82BC3028FAD63600839173 /* oppotunity.html in Resources */,
+				8C82BC0028FAD63600839173 /* veneration.html in Resources */,
+				8C82BCFB28FAD63600839173 /* marriage.html in Resources */,
+				8C82BCB328FAD63600839173 /* lifespan.html in Resources */,
+				8C82BBEE28FAD63600839173 /* allah.html in Resources */,
+				8C82BD0C28FAD63600839173 /* worship.html in Resources */,
+				8C82BBDD28FAD63600839173 /* obscene_lang.html in Resources */,
+				8C82BBED28FAD63600839173 /* the_truth.html in Resources */,
+				8C82BCF828FAD63600839173 /* aashura.html in Resources */,
+				8C82BC1128FAD63600839173 /* perfume.html in Resources */,
+				8C82BC3828FAD63600839173 /* merit.html in Resources */,
+				8C82BC4328FAD63600839173 /* arrogance.html in Resources */,
+				8C82BBEF28FAD63600839173 /* feeding_others.html in Resources */,
+				8C82BC8D28FAD63600839173 /* earnings.html in Resources */,
+				8C82BD0328FAD63600839173 /* religion.html in Resources */,
+				8C82BC1028FAD63600839173 /* obligations.html in Resources */,
+				8C82BCEE28FAD63600839173 /* angels.html in Resources */,
+				8C82BBF528FAD63600839173 /* consanguinal.html in Resources */,
+				8C82BC3128FAD63600839173 /* leniency.html in Resources */,
+				8C82BBF328FAD63600839173 /* guidance.html in Resources */,
+				8C8861D528FACA8C008D3886 /* LaunchScreen.storyboard in Resources */,
+				8C82BC2028FAD63600839173 /* differences.html in Resources */,
+				8C82BC2128FAD63600839173 /* repentance.html in Resources */,
+				8C82BCC628FAD63600839173 /* sinning.html in Resources */,
+				8C82BCA328FAD63600839173 /* blessing.html in Resources */,
+				8C82BC8128FAD63600839173 /* economics.html in Resources */,
+				8C82BCE128FAD63600839173 /* tyranny.html in Resources */,
+				8C82BC0A28FAD63600839173 /* emulation.html in Resources */,
+				8C82BD0D28FAD63600839173 /* doubt.html in Resources */,
+				8C82BC2428FAD63600839173 /* satisfaction.html in Resources */,
+				8C82BCE728FAD63600839173 /* agriculture.html in Resources */,
+				8C82BCDD28FAD63600839173 /* satan.html in Resources */,
+				8C82BCEB28FAD63600839173 /* invoking_blessings.html in Resources */,
+				8C82BC6E28FAD63600839173 /* ashura.html in Resources */,
+				8C82BC5C28FAD63600839173 /* staying_awake.html in Resources */,
+				8C82BCCF28FAD63600839173 /* intention.html in Resources */,
+				8C82BC0928FAD63600839173 /* creation.html in Resources */,
+				8C82BD0028FAD63600839173 /* back.png in Resources */,
+				8C82BC0F28FAD63600839173 /* the_intellect.html in Resources */,
+				8C82BCCC28FAD63600839173 /* action.html in Resources */,
+				8C82BCD128FAD63600839173 /* predestination.html in Resources */,
+				8C82BBD728FAD63600839173 /* good_repute.html in Resources */,
+				8C82BC4828FAD63600839173 /* insight.html in Resources */,
+				8C82BC7F28FAD63600839173 /* the_path.html in Resources */,
+				8C82BC9C28FAD63600839173 /* seeking_forgive.html in Resources */,
+				8C82BBDB28FAD63600839173 /* compassion.html in Resources */,
+				8C82BCB228FAD63600839173 /* judgement.html in Resources */,
+				8C82BC8328FAD63600839173 /* purity.html in Resources */,
+				8C82BD0B28FAD63600839173 /* comfort.html in Resources */,
+				8C82BD0728FAD63600839173 /* wretchedness.html in Resources */,
+				8C82BC7628FAD63600839173 /* the_rights.html in Resources */,
+				8C82BCBA28FAD63600839173 /* hypocrisy.html in Resources */,
+				8C82BC7D28FAD63600839173 /* inner_know_allah.html in Resources */,
+				8C82BC8728FAD63600839173 /* modesty.html in Resources */,
+				8C82BC9628FAD63600839173 /* the_preordained.html in Resources */,
+				8C82BBF828FAD63600839173 /* thinking.html in Resources */,
+				8C82BBE928FAD63600839173 /* partisanship.html in Resources */,
+				8C82BC8A28FAD63600839173 /* the_greater_jihad.html in Resources */,
+				8C82BBD828FAD63600839173 /* exhortation.html in Resources */,
+				8C82BBE328FAD63600839173 /* self_restraint.html in Resources */,
+				8C82BA8D28FAD1AB00839173 /* AppData.json in Resources */,
+				8C82BD0E28FAD63600839173 /* the_night_prayer.html in Resources */,
+				8C82BCF928FAD63600839173 /* remembrance.html in Resources */,
+				8C82BCFA28FAD63600839173 /* condolence.html in Resources */,
+				8C82BBE428FAD63600839173 /* divine_mercy.html in Resources */,
+				8C82BC4128FAD63600839173 /* haste.html in Resources */,
+				8C82BCD528FAD63600839173 /* fear.html in Resources */,
+				8C82BCB628FAD63600839173 /* good.html in Resources */,
+				8C82BC0C28FAD63600839173 /* alms_tax.html in Resources */,
+				8C82BCAD28FAD63600839173 /* infatuation.html in Resources */,
+				8C82BBEA28FAD63600839173 /* lesser_jihad.html in Resources */,
+				8C82BC6528FAD63600839173 /* disputation.html in Resources */,
+				8C82BCCB28FAD63600839173 /* procrastination.html in Resources */,
+				8C82BC1328FAD63600839173 /* ascetism.html in Resources */,
+				8C82BBE128FAD63600839173 /* the_creator.html in Resources */,
+				8C82BBE728FAD63600839173 /* scrutiny.html in Resources */,
+				8C82BC4428FAD63600839173 /* the_heart.html in Resources */,
+				8C82BBF728FAD63600839173 /* joking.html in Resources */,
+				8C82BC4D28FAD63600839173 /* making_excuses.html in Resources */,
+				8C82BC6328FAD63600839173 /* fornication.html in Resources */,
+				8C82BC8F28FAD63600839173 /* hell.html in Resources */,
+				8C82BC7528FAD63600839173 /* swindling.html in Resources */,
+				8C82BCB428FAD63600839173 /* jurisprudence.html in Resources */,
+				8C82BC2B28FAD63600839173 /* foolishness.html in Resources */,
+				8C82BCA228FAD63600839173 /* migration.html in Resources */,
+				8C82BC8B28FAD63600839173 /* patience.html in Resources */,
+				8C82BC5428FAD63600839173 /* the_unseen.html in Resources */,
+				8C82BC3B28FAD63600839173 /* trees.html in Resources */,
+				8C82BBFC28FAD63600839173 /* destruction.html in Resources */,
+				8C82BC6128FAD63600839173 /* the_muslim.html in Resources */,
+				8C82BC6428FAD63600839173 /* decree_destiny.html in Resources */,
+				8C82BCB028FAD63600839173 /* quenching.html in Resources */,
+				8C82BC9128FAD63600839173 /* generosity.html in Resources */,
+				8C82BCB128FAD63600839173 /* betrayal.html in Resources */,
+				8C82BBFB28FAD63600839173 /* contentment.html in Resources */,
+				8C82BC1728FAD63600839173 /* the_call_for.html in Resources */,
+				8C82BCE028FAD63600839173 /* scorn.html in Resources */,
+				8C82BCA628FAD63600839173 /* regret.html in Resources */,
+				8C82BC3928FAD63600839173 /* riches.html in Resources */,
+				8C82BC3728FAD63600839173 /* perfection.html in Resources */,
+				8C82BCD428FAD63600839173 /* disbelief.html in Resources */,
+				8C82BCA728FAD63600839173 /* childhood.html in Resources */,
+				8C82BC6728FAD63600839173 /* showing_off.html in Resources */,
+				8C82BBE828FAD63600839173 /* shaking_hand.html in Resources */,
+				8C82BCF728FAD63600839173 /* the_moral_less.html in Resources */,
+				8C82BC9D28FAD63600839173 /* banes.html in Resources */,
+				8C82BC2C28FAD63600839173 /* meeting_allah.html in Resources */,
+				8C82BC5228FAD63600839173 /* anger.html in Resources */,
+				8C82BCFE28FAD63600839173 /* supplication.html in Resources */,
+				8C82BCB928FAD63600839173 /* assurance.html in Resources */,
+				8C82BC9528FAD63600839173 /* harm.html in Resources */,
+				8C82BC2F28FAD63600839173 /* intercession.html in Resources */,
+				8C82BCBB28FAD63600839173 /* vitality.html in Resources */,
+				8C82BC5E28FAD63600839173 /* extremism.html in Resources */,
+				8C82BC4A28FAD63600839173 /* dissimulation.html in Resources */,
+				8C82BD0928FAD63600839173 /* visiting.html in Resources */,
+				8C82BC7828FAD63600839173 /* the_persians.html in Resources */,
+				8C82BC6B28FAD63600839173 /* humbleness.html in Resources */,
+				8C82BC7128FAD63600839173 /* social_interaction.html in Resources */,
+				8C82BC1428FAD63600839173 /* the_friday_prayer.html in Resources */,
+				8C82BC9328FAD63600839173 /* the_shia.html in Resources */,
+				8C82BC5328FAD63600839173 /* time.html in Resources */,
+				8C82BC6F28FAD63600839173 /* charity.html in Resources */,
+				8C82BC4728FAD63600839173 /* clemency.html in Resources */,
+				8C82BC9F28FAD63600839173 /* the_abased.html in Resources */,
+				8C82BCE328FAD63600839173 /* greed.html in Resources */,
+				8C82BC4C28FAD63600839173 /* paradise.html in Resources */,
+				8C82BBFF28FAD63600839173 /* government.html in Resources */,
+				8C82BC4528FAD63600839173 /* animals.html in Resources */,
+				8C82BC0828FAD63600839173 /* remedy.html in Resources */,
+				8C82BD0128FAD63600839173 /* the_festival.html in Resources */,
+				8C82BBFD28FAD63600839173 /* people.html in Resources */,
+				8C82BC6228FAD63600839173 /* background.png in Resources */,
+				8C82BC3428FAD63600839173 /* fairness.html in Resources */,
+				8C82BBD328FAD63600839173 /* the_brother.html in Resources */,
+				8C82BBD228FAD63600839173 /* sincerity.html in Resources */,
+				8C82BC3228FAD63600839173 /* the_light.html in Resources */,
+				8C82BC3528FAD63600839173 /* covenant.html in Resources */,
+				8C82BC2928FAD63600839173 /* eloquence.html in Resources */,
+				8C82BC5928FAD63600839173 /* infallibility.html in Resources */,
+				8C82BC0428FAD63600839173 /* sitting_company.html in Resources */,
+				8C82BBD928FAD63600839173 /* bounties.html in Resources */,
+				8C82BC2228FAD63600839173 /* the_need.html in Resources */,
+				8C82BC7E28FAD63600839173 /* the_mosque.html in Resources */,
+				8C82BBD628FAD63600839173 /* falsehood.html in Resources */,
+				8C82BC3628FAD63600839173 /* delusion.html in Resources */,
+				8C82BCAB28FAD63600839173 /* loyalty.html in Resources */,
+				8C82BCB728FAD63600839173 /* employment.html in Resources */,
+				8C82BCE528FAD63600839173 /* prosperity.html in Resources */,
+				8C82BC9928FAD63600839173 /* service.html in Resources */,
+				8C82BC9728FAD63600839173 /* the_prohibited.html in Resources */,
+				8C82BBE028FAD63600839173 /* amusement.html in Resources */,
+				8C82BC2A28FAD63600839173 /* the_desire.html in Resources */,
+				8C82BCED28FAD63600839173 /* state.html in Resources */,
+				8C82BBE628FAD63600839173 /* the_world.html in Resources */,
+				8C82BCAE28FAD63600839173 /* the_gift.html in Resources */,
+				8C82BBF428FAD63600839173 /* conjecture.html in Resources */,
+				8C8861D228FACA8C008D3886 /* Assets.xcassets in Resources */,
+				8C82BCAA28FAD63600839173 /* faith.html in Resources */,
+				8C82BCE828FAD63600839173 /* sustenance.html in Resources */,
+				8C82BC5B28FAD63600839173 /* martyrdom.html in Resources */,
+				8C82BCD728FAD63600839173 /* adornment.html in Resources */,
+				8C82BCF228FAD63600839173 /* divorce.html in Resources */,
+				8C82BC3C28FAD63600839173 /* islam.html in Resources */,
+				8C82BCC228FAD63600839173 /* gambling.html in Resources */,
+				8C82BC2D28FAD63600839173 /* duty.html in Resources */,
+				8C82BCDB28FAD63600839173 /* the_answer.html in Resources */,
+				8C82BCCD28FAD63600839173 /* the_homeland.html in Resources */,
+				8C82BC1F28FAD63600839173 /* listening.html in Resources */,
+				8C82BC8C28FAD63600839173 /* fame.html in Resources */,
+				8C82BCFD28FAD63600839173 /* dreams.html in Resources */,
+				8C82BC2728FAD63600839173 /* idleness.html in Resources */,
+				8C82BC2E28FAD63600839173 /* ramazan.html in Resources */,
+				8C82BCFC28FAD63600839173 /* inner_knowledge.html in Resources */,
+				8C82BC9228FAD63600839173 /* commerce.html in Resources */,
+				8C82BCF328FAD63600839173 /* evil.html in Resources */,
+				8C82BD0628FAD63600839173 /* music.html in Resources */,
+				8C82BD0528FAD63600839173 /* ignorance.html in Resources */,
+				8C82BC6C28FAD63600839173 /* clothing.html in Resources */,
+				8C82BC2828FAD63600839173 /* anipathy.html in Resources */,
+				8C82BC3D28FAD63600839173 /* the_prayer.html in Resources */,
+				8C82BC0228FAD63600839173 /* the_end.html in Resources */,
+				8C82BBDE28FAD63600839173 /* the_fault.html in Resources */,
+				8C82BC9428FAD63600839173 /* death.html in Resources */,
+				8C82BC5028FAD63600839173 /* divider1.png in Resources */,
+				8C82BC0728FAD63600839173 /* possessiveness.html in Resources */,
+				8C82BBEB28FAD63600839173 /* common_courtesy.html in Resources */,
+				8C82BBDC28FAD63600839173 /* the_habit.html in Resources */,
+				8C82BC5A28FAD63600839173 /* backgrd.jpg in Resources */,
+				8C82BCF628FAD63600839173 /* pardon.html in Resources */,
+				8C82BCA128FAD63600839173 /* amity.html in Resources */,
+				8C82BC8428FAD63600839173 /* wasting.html in Resources */,
+				8C82BC1628FAD63600839173 /* madness.html in Resources */,
+				8C82BC7B28FAD63600839173 /* praise.html in Resources */,
+				8C82BCC828FAD63600839173 /* fasting.html in Resources */,
+				8C82BCC028FAD63600839173 /* brushing.html in Resources */,
+				8C82BBE528FAD63600839173 /* the_reward.html in Resources */,
+				8C82BC4F28FAD63600839173 /* the_spirit.html in Resources */,
+				8C82BC9828FAD63600839173 /* the_promise.html in Resources */,
+				8C82BC6028FAD63600839173 /* loss.html in Resources */,
+				8C82BCD028FAD63600839173 /* humility.html in Resources */,
+				8C82BC0E28FAD63600839173 /* sickness.html in Resources */,
+				8C82BC2328FAD63600839173 /* concealment.html in Resources */,
+				8C82BC7728FAD63600839173 /* nails.html in Resources */,
+				8C82BC8028FAD63600839173 /* the_congregation.html in Resources */,
+				8C82BC4E28FAD63600839173 /* self_admiration.html in Resources */,
+				8C82BC7428FAD63600839173 /* experience.html in Resources */,
+				8C82BCC428FAD63600839173 /* polytheism.html in Resources */,
+				8C82BBFE28FAD63600839173 /* secrecy.html in Resources */,
+				8C82BCBC28FAD63600839173 /* bearing_witness.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8861D928FACA8C008D3886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8861E328FACA8C008D3886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8861C128FACA8B008D3886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8861C928FACA8B008D3886 /* AppDelegate.swift in Sources */,
+				8C88620C28FACF45008D3886 /* HomeViewModel.swift in Sources */,
+				8C82BA8F28FAD1E500839173 /* AppDataModel.swift in Sources */,
+				8C8861CB28FACA8B008D3886 /* SceneDelegate.swift in Sources */,
+				8C88620628FACDA6008D3886 /* UI+new.swift in Sources */,
+				8C82BD1128FAE08800839173 /* CustomSearchBar.swift in Sources */,
+				8C8861FD28FACB15008D3886 /* HomeViewController.swift in Sources */,
+				8C88620A28FACE35008D3886 /* HomeCell.swift in Sources */,
+				8C82BA9128FAD50900839173 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8861D728FACA8C008D3886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8861E028FACA8C008D3886 /* PearlsOfWisdomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8861E128FACA8C008D3886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8861EA28FACA8C008D3886 /* PearlsOfWisdomUITests.swift in Sources */,
+				8C8861EC28FACA8C008D3886 /* PearlsOfWisdomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8861DD28FACA8C008D3886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8861C428FACA8B008D3886 /* PearlsOfWisdom */;
+			targetProxy = 8C8861DC28FACA8C008D3886 /* PBXContainerItemProxy */;
+		};
+		8C8861E728FACA8C008D3886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8861C428FACA8B008D3886 /* PearlsOfWisdom */;
+			targetProxy = 8C8861E628FACA8C008D3886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C8861D328FACA8C008D3886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8861D428FACA8C008D3886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C8861ED28FACA8C008D3886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C8861EE28FACA8C008D3886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8861F028FACA8C008D3886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4D9WCCL22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PearlsOfWisdom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamahdi.PearlsOfWisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8861F128FACA8C008D3886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4D9WCCL22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PearlsOfWisdom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamahdi.PearlsOfWisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C8861F328FACA8C008D3886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4D9WCCL22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamahdi.PearlsOfWisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PearlsOfWisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PearlsOfWisdom";
+			};
+			name = Debug;
+		};
+		8C8861F428FACA8C008D3886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4D9WCCL22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamahdi.PearlsOfWisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PearlsOfWisdom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PearlsOfWisdom";
+			};
+			name = Release;
+		};
+		8C8861F628FACA8C008D3886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4D9WCCL22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamahdi.PearlsOfWisdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PearlsOfWisdom;
+			};
+			name = Debug;
+		};
+		8C8861F728FACA8C008D3886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4D9WCCL22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamahdi.PearlsOfWisdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PearlsOfWisdom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8861C028FACA8B008D3886 /* Build configuration list for PBXProject "PearlsOfWisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8861ED28FACA8C008D3886 /* Debug */,
+				8C8861EE28FACA8C008D3886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8861EF28FACA8C008D3886 /* Build configuration list for PBXNativeTarget "PearlsOfWisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8861F028FACA8C008D3886 /* Debug */,
+				8C8861F128FACA8C008D3886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8861F228FACA8C008D3886 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8861F328FACA8C008D3886 /* Debug */,
+				8C8861F428FACA8C008D3886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8861F528FACA8C008D3886 /* Build configuration list for PBXNativeTarget "PearlsOfWisdomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8861F628FACA8C008D3886 /* Debug */,
+				8C8861F728FACA8C008D3886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C8861FE28FACB4E008D3886 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C8861FF28FACB4E008D3886 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C8861FE28FACB4E008D3886 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8C8861BD28FACA8B008D3886 /* Project object */;
+}
