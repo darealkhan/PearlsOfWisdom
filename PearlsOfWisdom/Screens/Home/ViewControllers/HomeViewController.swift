@@ -109,12 +109,11 @@ extension HomeViewController {
         
         searchBar.onTextChange = { [weak self] text in
             guard let self = self else { return }
-            print(text)
             if text.isEmpty {
                 self.filteredData = self.data
                 self.tableView.reloadData()
             } else {
-                self.filteredData = self.data.filter({ $0.title.contains(text) })
+              self.filteredData = self.data.filter({ $0.title.lowercased().contains(text.lowercased()) })
                 self.tableView.reloadData()
             }
             
