@@ -38,12 +38,15 @@ class DetailViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
+        navigationController?.setNavigationBarHidden(true, animated: true)
         UIApplication.shared.statusBarStyle = .default
     }
 }
 
 extension DetailViewController {
     private func setupViews() {
+        view.backgroundColor = .backgroundColor
+        
         guard let mainHTMLUrl = Bundle.main.url(forResource: htmlName, withExtension: "html") else {
             print("no")
             return
@@ -55,6 +58,10 @@ extension DetailViewController {
         }
         
         let webView = WKWebView()
+        if #available(iOS 15.0, *) {
+            webView.underPageBackgroundColor = .backgroundColor
+        }
+        webView.backgroundColor = .backgroundColor
         view.addSubview(webView)
         webView.snp.makeConstraints { make in
             make.edges.equalToSuperview()

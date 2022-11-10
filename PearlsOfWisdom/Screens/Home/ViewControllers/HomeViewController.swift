@@ -37,12 +37,6 @@ class HomeViewController: UIViewController {
         setupBinds()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        navigationController?.setNavigationBarHidden(true, animated: false)
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -59,12 +53,15 @@ class HomeViewController: UIViewController {
 extension HomeViewController {
     private func setupViews() {
         view.backgroundColor = UIColor.backgroundColor
-        navigationController?.navigationBar.tintColor = .black
+        
+        navigationController?.navigationBar.tintColor = .white
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        navigationController?.setNavigationBarHidden(true, animated: false)
         
         let welcomeMessage = UILabel.new {
             $0.text = "Have a good day!"
             $0.numberOfLines = 0
-            $0.font = .systemFont(ofSize: 36, weight: .bold)
+            $0.font = .systemFont(ofSize: 30, weight: .black)
             $0.textColor = .white
         }
         
@@ -88,11 +85,11 @@ extension HomeViewController {
         welcomeMessage.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(16)
             make.trailing.equalToSuperview().offset(-16)
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(16)
         }
         
         searchBar.snp.makeConstraints { make in
-            make.top.equalTo(welcomeMessage.snp.bottom).offset(20)
+            make.top.equalTo(welcomeMessage.snp.bottom).offset(16)
             make.leading.equalToSuperview().offset(16)
             make.trailing.equalToSuperview().offset(-16)
             make.height.equalTo(50)
