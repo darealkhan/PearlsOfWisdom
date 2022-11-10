@@ -46,17 +46,24 @@ class CustomSearchBar: UIView {
 
 extension CustomSearchBar {
     private func setupViews() {
+        self.backgroundColor = UIColor.secondaryBackgroundColor
+        self.layer.cornerRadius = 10
+        self.clipsToBounds = true
         
         let searchImage = UIImageView.new {
             $0.contentMode = .scaleAspectFit
             $0.image = UIImage(systemName: "magnifyingglass")
-            $0.tintColor = .black
-            $0.layer.opacity = 0.3
+            $0.tintColor = .white
+            $0.layer.opacity = 0.6
         }
         
         textField = UITextField.new {
-            $0.placeholder = "Search..."
+            $0.attributedPlaceholder = NSAttributedString(
+                string: "Search...",
+                attributes: [NSAttributedString.Key.foregroundColor: UIColor.white.withAlphaComponent(0.5)]
+            )
             $0.font = .systemFont(ofSize: textSize, weight: .medium)
+            $0.textColor = .white
             $0.autocorrectionType = .no
         }
         
@@ -64,18 +71,13 @@ extension CustomSearchBar {
         
         cancelButton = UIButton.new(type: .system) {
             $0.setImage(UIImage(systemName: "xmark.circle.fill"), for: .normal)
-            $0.tintColor = .black
-            $0.layer.opacity = 0.3
+            $0.tintColor = .white
+            $0.layer.opacity = 0.6
         }
         
         cancelButton.addTarget(self, action: #selector(cancelButtonTapped), for: .touchUpInside)
         
         cancelButton.isHidden = true
-        
-        let divider = UIView.new {
-            $0.backgroundColor = .black
-            $0.layer.opacity = 0.3
-        }
         
         let searchStack = UIStackView.new {
             $0.distribution = .fill
@@ -89,7 +91,6 @@ extension CustomSearchBar {
         searchStack.addArrangedSubview(cancelButton)
         
         self.addSubview(searchStack)
-        self.addSubview(divider)
         
         searchImage.snp.makeConstraints { make in
             make.width.height.equalTo(imageSize)
@@ -101,14 +102,9 @@ extension CustomSearchBar {
         
         searchStack.snp.makeConstraints { make in
             make.top.equalToSuperview()
-            make.leading.equalToSuperview()
-            make.trailing.equalToSuperview()
-            make.bottom.equalTo(divider.snp.top)
-        }
-        
-        divider.snp.makeConstraints { make in
-            make.bottom.leading.trailing.equalToSuperview()
-            make.height.equalTo(1)
+            make.leading.equalToSuperview().offset(16)
+            make.trailing.equalToSuperview().offset(-16)
+            make.bottom.equalToSuperview()
         }
         
         setupToolBar()

@@ -42,18 +42,47 @@ class HomeCell: UITableViewCell {
 
 extension HomeCell {
     private func setupViews() {
+        self.backgroundColor = .clear
+        
+        let bg = UIView.new {
+            $0.backgroundColor = UIColor.secondaryBackgroundColor
+            $0.layer.cornerRadius = 10
+            $0.clipsToBounds = true
+        }
+        
         title = UILabel.new {
-            $0.font = .systemFont(ofSize: fontSize, weight: .semibold)
-            $0.textColor = .black
+            $0.font = .systemFont(ofSize: fontSize, weight: .medium)
+            $0.textColor = .white
         }
         
         arabicTitle = UILabel.new {
             $0.font = .systemFont(ofSize: fontSize, weight: .medium)
-            $0.textColor = .black
+            $0.textColor = .white
         }
         
-        contentView.addSubview(title)
-        contentView.addSubview(arabicTitle)
+        let arrow = UIImageView.new {
+            $0.image = UIImage(systemName: "chevron.right")
+            $0.contentMode = .scaleAspectFit
+            $0.tintColor = .white.withAlphaComponent(0.6)
+        }
+        
+        contentView.addSubview(bg)
+        
+        bg.snp.makeConstraints { make in
+            make.top.equalToSuperview()
+            make.leading.trailing.equalToSuperview()
+            make.bottom.equalToSuperview().offset(-16)
+        }
+        
+        bg.addSubview(title)
+        bg.addSubview(arabicTitle)
+        bg.addSubview(arrow)
+        
+        arrow.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.trailing.equalToSuperview().offset(-16)
+            make.height.width.equalTo(24)
+        }
         
         title.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(16)
@@ -62,7 +91,7 @@ extension HomeCell {
         
         arabicTitle.snp.makeConstraints { make in
             make.top.equalTo(title.snp.bottom).offset(10)
-            make.trailing.equalToSuperview().offset(-10)
+            make.trailing.equalTo(arrow.snp.leading).offset(-10)
             make.bottom.equalToSuperview().offset(-16)
         }
     }

@@ -8,18 +8,16 @@
 import Foundation
 
 class HomeViewModel {
-    var onFetch: (([HomeCellModel]) -> Void)?
-    
-    func fetchData(completion: @escaping ([HomeCellModel]) -> Void) {
+    func getQuotes(completion: @escaping ([HomeCellModel]) -> Void) {
         var homeTableViewData = [HomeCellModel]()
         
-        guard let url = Bundle.main.url(forResource: "AppData", withExtension: "json") else {
+        guard let url = Bundle.main.url(forResource: "HomeViewModelQuotes", withExtension: "json") else {
             return }
         
         do {
             let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
-            let jsonData = try decoder.decode(AppData.self, from: data)
+            let jsonData = try decoder.decode(HomeViewModel.Quotes.self, from: data)
             for childItemWithHtml in jsonData.childItemsWithHTML {
                 if let html = childItemWithHtml.localFileName {
                     for childItem in jsonData.childItems {
@@ -36,5 +34,79 @@ class HomeViewModel {
         } catch let err {
             print(err.localizedDescription)
         }
+    }
+    
+    func getHelloMessage() -> String {
+        let hour = Calendar.current.component(.hour, from: Date())
+
+        switch hour {
+        case 6..<12 : return "Morning"
+        case 12 : return "Noon"
+        case 13..<17 : return "Afternoon"
+        case 17..<22 : return "Evening"
+        default: return "Night"
+        }
+    }
+}
+
+extension HomeViewModel {
+    // MARK: - AppData
+    struct Quotes: Codable {
+        let childItems: [ChildItem]
+        let childItemsWithHTML: [ChildItemsWithHTML]
+
+        enum CodingKeys: String, CodingKey {
+            case childItems
+            case childItemsWithHTML = "childItemsWithHtml"
+        }
+    }
+
+    // MARK: - ChildItem
+    struct ChildItem: Codable {
+        let itemID: String
+        let itemType: ChildItemItemType
+        let loadScreenWithItemID, titleText, descriptionText: String
+        let rowAccessoryType: RowAccessoryType
+
+        enum CodingKeys: String, CodingKey {
+            case itemID = "itemId"
+            case itemType
+            case loadScreenWithItemID = "loadScreenWithItemId"
+            case titleText, descriptionText, rowAccessoryType
+        }
+    }
+
+    enum ChildItemItemType: String, Codable {
+        case btMenuItem = "BT_menuItem"
+    }
+
+    enum RowAccessoryType: String, Codable {
+        case none = "none"
+    }
+
+    // MARK: - ChildItemsWithHTML
+    struct ChildItemsWithHTML: Codable {
+        let itemID: String
+        let itemType: ChildItemsWithHTMLItemType
+        let itemNickname: String
+        let navBarTitleText: String?
+        let navBarStyle: NavBarStyle?
+        let localFileName, startTransitionAfterSeconds, transitionDurationSeconds, transitionType: String?
+        let backgroundColor, backgroundImageNameSmallDevice, backgroundImageNameLargeDevice, backgroundImageScale: String?
+        let forceRefresh: String?
+
+        enum CodingKeys: String, CodingKey {
+            case itemID = "itemId"
+            case itemType, itemNickname, navBarTitleText, navBarStyle, localFileName, startTransitionAfterSeconds, transitionDurationSeconds, transitionType, backgroundColor, backgroundImageNameSmallDevice, backgroundImageNameLargeDevice, backgroundImageScale, forceRefresh
+        }
+    }
+
+    enum ChildItemsWithHTMLItemType: String, Codable {
+        case btScreenHTMLDoc = "BT_screen_htmlDoc"
+        case btScreenSplash = "BT_screen_splash"
+    }
+
+    enum NavBarStyle: String, Codable {
+        case hidden = "hidden"
     }
 }

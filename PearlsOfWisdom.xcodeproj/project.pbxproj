@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C82BA8D28FAD1AB00839173 /* AppData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA8C28FAD1AB00839173 /* AppData.json */; };
-		8C82BA8F28FAD1E500839173 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C82BA8E28FAD1E500839173 /* AppDataModel.swift */; };
+		682B626F291CCE96007E16D0 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682B626E291CCE95007E16D0 /* UIColor+Extension.swift */; };
+		682B6271291CD7BC007E16D0 /* AllQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 682B6270291CD7BC007E16D0 /* AllQuotes.json */; };
+		682B6273291CDD2C007E16D0 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682B6272291CDD2C007E16D0 /* QuoteCell.swift */; };
+		682B6277291CE04F007E16D0 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682B6276291CE04F007E16D0 /* QuotesViewModel.swift */; };
+		682B627B291CE550007E16D0 /* TableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682B627A291CE550007E16D0 /* TableViewHeaderView.swift */; };
+		8C82BA8D28FAD1AB00839173 /* HomeViewModelQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA8C28FAD1AB00839173 /* HomeViewModelQuotes.json */; };
 		8C82BA9128FAD50900839173 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C82BA9028FAD50900839173 /* DetailViewController.swift */; };
 		8C82BBD128FAD63600839173 /* hope.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9328FAD63500839173 /* hope.html */; };
 		8C82BBD228FAD63600839173 /* sincerity.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C82BA9428FAD63500839173 /* sincerity.html */; };
@@ -361,8 +365,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8C82BA8C28FAD1AB00839173 /* AppData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppData.json; sourceTree = "<group>"; };
-		8C82BA8E28FAD1E500839173 /* AppDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		682B626E291CCE95007E16D0 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		682B6270291CD7BC007E16D0 /* AllQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllQuotes.json; sourceTree = "<group>"; };
+		682B6272291CDD2C007E16D0 /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
+		682B6276291CE04F007E16D0 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		682B627A291CE550007E16D0 /* TableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeaderView.swift; sourceTree = "<group>"; };
+		8C82BA8C28FAD1AB00839173 /* HomeViewModelQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HomeViewModelQuotes.json; sourceTree = "<group>"; };
 		8C82BA9028FAD50900839173 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8C82BA9328FAD63500839173 /* hope.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hope.html; sourceTree = "<group>"; };
 		8C82BA9428FAD63500839173 /* sincerity.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sincerity.html; sourceTree = "<group>"; };
@@ -726,6 +734,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		682B6274291CDFBD007E16D0 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				682B6278291CE0EA007E16D0 /* Cells */,
+				682B6275291CE03E007E16D0 /* ViewModels */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		682B6275291CE03E007E16D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				682B6276291CE04F007E16D0 /* QuotesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		682B6278291CE0EA007E16D0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				682B6272291CDD2C007E16D0 /* QuoteCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		8C82BA9228FAD63500839173 /* htmls */ = {
 			isa = PBXGroup;
 			children = (
@@ -1055,6 +1088,7 @@
 			isa = PBXGroup;
 			children = (
 				8C82BD1028FAE08800839173 /* CustomSearchBar.swift */,
+				682B627A291CE550007E16D0 /* TableViewHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1112,6 +1146,7 @@
 			isa = PBXGroup;
 			children = (
 				8C8861F928FACAE6008D3886 /* Home */,
+				682B6274291CDFBD007E16D0 /* Quotes */,
 				8C8861FA28FACAEA008D3886 /* Detail */,
 			);
 			path = Screens;
@@ -1148,6 +1183,7 @@
 			isa = PBXGroup;
 			children = (
 				8C88620528FACDA6008D3886 /* UI+new.swift */,
+				682B626E291CCE95007E16D0 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1165,7 +1201,8 @@
 			isa = PBXGroup;
 			children = (
 				8C82BA9228FAD63500839173 /* htmls */,
-				8C82BA8C28FAD1AB00839173 /* AppData.json */,
+				8C82BA8C28FAD1AB00839173 /* HomeViewModelQuotes.json */,
+				682B6270291CD7BC007E16D0 /* AllQuotes.json */,
 				8C8861D128FACA8C008D3886 /* Assets.xcassets */,
 				8C8861D328FACA8C008D3886 /* LaunchScreen.storyboard */,
 			);
@@ -1175,7 +1212,6 @@
 		8C88620728FACE19008D3886 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				8C82BA8E28FAD1E500839173 /* AppDataModel.swift */,
 				8C88620B28FACF45008D3886 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
@@ -1470,7 +1506,7 @@
 				8C82BC8A28FAD63600839173 /* the_greater_jihad.html in Resources */,
 				8C82BBD828FAD63600839173 /* exhortation.html in Resources */,
 				8C82BBE328FAD63600839173 /* self_restraint.html in Resources */,
-				8C82BA8D28FAD1AB00839173 /* AppData.json in Resources */,
+				8C82BA8D28FAD1AB00839173 /* HomeViewModelQuotes.json in Resources */,
 				8C82BD0E28FAD63600839173 /* the_night_prayer.html in Resources */,
 				8C82BCF928FAD63600839173 /* remembrance.html in Resources */,
 				8C82BCFA28FAD63600839173 /* condolence.html in Resources */,
@@ -1589,6 +1625,7 @@
 				8C82BD0628FAD63600839173 /* music.html in Resources */,
 				8C82BD0528FAD63600839173 /* ignorance.html in Resources */,
 				8C82BC6C28FAD63600839173 /* clothing.html in Resources */,
+				682B6271291CD7BC007E16D0 /* AllQuotes.json in Resources */,
 				8C82BC2828FAD63600839173 /* anipathy.html in Resources */,
 				8C82BC3D28FAD63600839173 /* the_prayer.html in Resources */,
 				8C82BC0228FAD63600839173 /* the_end.html in Resources */,
@@ -1644,11 +1681,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682B6273291CDD2C007E16D0 /* QuoteCell.swift in Sources */,
 				8C8861C928FACA8B008D3886 /* AppDelegate.swift in Sources */,
 				8C88620C28FACF45008D3886 /* HomeViewModel.swift in Sources */,
-				8C82BA8F28FAD1E500839173 /* AppDataModel.swift in Sources */,
+				682B6277291CE04F007E16D0 /* QuotesViewModel.swift in Sources */,
 				8C8861CB28FACA8B008D3886 /* SceneDelegate.swift in Sources */,
+				682B626F291CCE96007E16D0 /* UIColor+Extension.swift in Sources */,
 				8C88620628FACDA6008D3886 /* UI+new.swift in Sources */,
+				682B627B291CE550007E16D0 /* TableViewHeaderView.swift in Sources */,
 				8C82BD1128FAE08800839173 /* CustomSearchBar.swift in Sources */,
 				8C8861FD28FACB15008D3886 /* HomeViewController.swift in Sources */,
 				8C88620A28FACE35008D3886 /* HomeCell.swift in Sources */,
