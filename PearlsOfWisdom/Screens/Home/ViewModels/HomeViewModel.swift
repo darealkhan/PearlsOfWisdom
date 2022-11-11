@@ -35,18 +35,6 @@ class HomeViewModel {
             print(err.localizedDescription)
         }
     }
-    
-    func getHelloMessage() -> String {
-        let hour = Calendar.current.component(.hour, from: Date())
-
-        switch hour {
-        case 6..<12 : return "Morning"
-        case 12 : return "Noon"
-        case 13..<17 : return "Afternoon"
-        case 17..<22 : return "Evening"
-        default: return "Night"
-        }
-    }
 }
 
 extension HomeViewModel {

@@ -11,13 +11,21 @@ import UIKit
 class TableViewHeaderView: UIView {
     private var headerLabel: UILabel!
     
+    private var fontSize: CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 20
+        } else {
+            return 16
+        }
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .backgroundColor
         
         headerLabel = UILabel.new {
             $0.textColor = .white
-            $0.font = .systemFont(ofSize: 16, weight: .semibold)
+            $0.font = .systemFont(ofSize: fontSize, weight: .semibold)
         }
         
         self.addSubview(headerLabel)

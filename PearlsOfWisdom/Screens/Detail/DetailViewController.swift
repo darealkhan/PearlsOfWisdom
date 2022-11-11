@@ -27,20 +27,6 @@ class DetailViewController: UIViewController {
         setupViews()
         setupBinds()
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        navigationController?.setNavigationBarHidden(false, animated: true)
-        UIApplication.shared.statusBarStyle = .darkContent
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        navigationController?.setNavigationBarHidden(true, animated: true)
-        UIApplication.shared.statusBarStyle = .default
-    }
 }
 
 extension DetailViewController {

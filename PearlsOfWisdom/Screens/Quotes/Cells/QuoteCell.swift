@@ -14,6 +14,24 @@ class QuoteCell: UITableViewCell {
     private var quoteLabel: UILabel!
     private var authorLabel: UILabel!
     
+    var onShareTapped: (() -> Void)?
+    
+    private var fontSize: CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 28
+        } else {
+            return 16
+        }
+    }
+    
+    private var imageSize: CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 30
+        } else {
+            return 20
+        }
+    }
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -43,20 +61,20 @@ extension QuoteCell {
         }
         
         quoteLabel = UILabel.new {
-            $0.font = .systemFont(ofSize: 14, weight: .medium)
+            $0.font = .systemFont(ofSize: fontSize, weight: .medium)
             $0.textColor = .white
             $0.numberOfLines = 0
         }
         
         authorLabel = UILabel.new {
-            $0.font = .systemFont(ofSize: 12, weight: .medium)
+            $0.font = .systemFont(ofSize: fontSize - 4, weight: .medium)
             $0.textColor = UIColor.white.withAlphaComponent(0.6)
         }
         
-        let shareIcon = UIImageView.new {
-            $0.image = UIImage(named: "shareIcon")
-            $0.contentMode = .scaleAspectFit
-        }
+        let shareIcon = UIButton(type: .system)
+        shareIcon.setImage(UIImage(systemName: "square.and.arrow.up")?.resized(to: CGSize(width: imageSize, height: imageSize)), for: .normal)
+        shareIcon.tintColor = .actionColor
+        shareIcon.addTarget(self, action: #selector(shareIconTapped), for: .touchUpInside)
         
         stack.addArrangedSubview(quoteLabel)
         stack.addArrangedSubview(authorLabel)
@@ -81,8 +99,11 @@ extension QuoteCell {
         shareIcon.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(16)
             make.trailing.equalToSuperview().offset(-16)
-            make.height.width.equalTo(30)
         }
+    }
+    
+    @objc private func shareIconTapped() {
+        self.onShareTapped?()
     }
     
     func setupCellWith(_ model: QuotesViewModel.Quote) {

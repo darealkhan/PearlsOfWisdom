@@ -20,26 +20,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
-        let mainController = UINavigationController(rootViewController: HomeViewController())
+        let mainController = TabBarController()
         
         window.rootViewController = mainController
         
         window.makeKeyAndVisible()
         
         window.overrideUserInterfaceStyle = .light
-        
-        // To change background colour.
-        let navigationBarAppearance = UINavigationBarAppearance()
-        
-        navigationBarAppearance.backgroundColor = .backgroundColor
-        navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18, weight: .bold), NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationBarAppearance.backgroundImage = UIImage()
-        navigationBarAppearance.shadowImage = UIImage()
-        
-        UINavigationBar.appearance().standardAppearance = navigationBarAppearance
-        UINavigationBar.appearance().compactAppearance = navigationBarAppearance
-        UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
-
         
         self.window = window
     }

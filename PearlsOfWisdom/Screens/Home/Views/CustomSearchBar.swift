@@ -143,4 +143,8 @@ extension CustomSearchBar {
     private func setupBinds() {
         
     }
+    
+    override var intrinsicContentSize: CGSize {
+        return CGSize(width: 0, height: 50)
+    }
 }
