@@ -53,10 +53,15 @@ extension DetailViewController {
             make.edges.equalToSuperview()
         }
         
+        webView.navigationDelegate = self
         webView.loadFileURL(mainHTMLUrl, allowingReadAccessTo: dividerURL)
     }
     
     private func setupBinds() {
-        
     }
+}
+
+extension DetailViewController: WKNavigationDelegate {
+  func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+  }
 }

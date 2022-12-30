@@ -32,17 +32,11 @@ extension AboutViewController {
         
         let informationLabel = UILabel.new {
             $0.text = """
-            Salamun Alaikum
+            The work is the compilation from "Dar al-Hadith Databank" and the Book "Nahjul Fasahah".
 
-            Alhamdulillah after successful mobile Apps we have moved to web, for the user who need to use pdfs, take printouts and also print books.
-
-            We took the whole content of the App "Pearls Of Wisdom" on this website for the ease of users worldwide to take benefit with the content,
-
-            Please fell free to contact us for your valuable feedback and improvements.
-
-            We are thankful to all those who took part in this noble cause by participating with their valuable suggestions.
-
-            Iltemase dua
+            We present this meager offering before Imam e Zamana (atfs) without His help and blessings we would not have been able to complete.
+            
+            It is a great honor and blessing for us to be able to share with all momineen such glorious teachings of 14 Masoomeen (a.s.)
             """
             $0.numberOfLines = 0
             $0.textColor = .white
